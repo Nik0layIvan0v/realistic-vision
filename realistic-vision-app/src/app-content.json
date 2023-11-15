@@ -1,66 +1,79 @@
 {
   "app": {
     "title": "Realistic-Vision",
-    "logo": null,
-    "offcanvasNavbarLabel": "Realistic-Vision"
+    "logo": "",
+    "offcanvasNavbarLabel": "Realistic-Vision",
+    "navlinks": {
+      "bg": [
+        {
+          "order": 1,
+          "title": "Начало",
+          "link": "/"
+        },
+        {
+          "order": 2,
+          "title": "Галерия",
+          "link": "/our-gallery"
+        },
+        {
+          "order": 3,
+          "title": "Услуги",
+          "link": "/our-services"
+        },
+        {
+          "order": 4,
+          "title": "За Нас",
+          "link": "/about-us"
+        },
+        {
+          "order": 5,
+          "title": "Контакти",
+          "link": "/contact-us"
+        }
+      ],
+      "en": [
+        {
+          "order": 1,
+          "title": "Home",
+          "link": "/"
+        },
+        {
+          "order": 2,
+          "title": "Gallery",
+          "link": "/our-gallery"
+        },
+        {
+          "order": 3,
+          "title": "Services",
+          "link": "/our-services"
+        },
+        {
+          "order": 4,
+          "title": "About",
+          "link": "/about-us"
+        },
+        {
+          "order": 5,
+          "title": "Contact",
+          "link": "/contact-us"
+        }
+      ]
+    }
   },
-  "en": {
-    "navlinks": [
-      {
-        "order": 1,
-        "title": "Home",
-        "link": "/"
-      },
-      {
-        "order": 2,
-        "title": "Gallery",
-        "link": "/our-gallery"
-      },
-      {
-        "order": 3,
-        "title": "Services",
-        "link": "/our-services"
-      },
-      {
-        "order": 4,
-        "title": "About",
-        "link": "/about-us"
-      },
-      {
-        "order": 5,
-        "title": "Contact",
-        "link": "/contact-us"
-      }
-    ],
-    "": ""
-  },
-  "bg": {
-    "navlinks": [
-      {
-        "order": 1,
-        "title": "Начало",
-        "link": "/"
-      },
-      {
-        "order": 2,
-        "title": "Галерия",
-        "link": "/our-gallery"
-      },
-      {
-        "order": 3,
-        "title": "Услуги",
-        "link": "/our-services"
-      },
-      {
-        "order": 4,
-        "title": "За Нас",
-        "link": "/about-us"
-      },
-      {
-        "order": 5,
-        "title": "Контакти",
-        "link": "/contact-us"
-      }
-    ]
+  "pages": {
+    "en": {
+      "HomePage": {},
+      "AboutUsPage": {},
+      "GalleryPage": {},
+      "ServicesPage": {},
+      "ContactPage": {}
+    },
+    "bg": {
+      "HomePage": {},
+      "AboutUsPage": {},
+      "GalleryPage": {},
+      "ServicesPage": {},
+      "ContactPage": {}
+    }
   }
 }
