@@ -21,6 +21,14 @@ function HomePage() {
           </div>
         }
       />
+      <VideoContainer
+        source={sample}
+        caption={
+          <div className="d-flex h-100 w-100 justify-content-center align-items-center">
+            <h2 className="text-light">We create the best animations</h2>
+          </div>
+        }
+      />
     </>
   );
 }
