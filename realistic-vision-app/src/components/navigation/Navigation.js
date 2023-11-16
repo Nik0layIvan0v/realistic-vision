@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faHouse } from "@fortawesome/free-solid-svg-icons";
 import "./Navigation.css";
 
-function Navigation({ expand, lang, ...app }) {
+function Navigation({ expand, lang, onLangChange, ...app }) {
   return (
     <Navbar
       className="bg-body-transparent bg-white"
@@ -52,9 +52,22 @@ function Navigation({ expand, lang, ...app }) {
                   className="nav-link display-1"
                   to={navLink.link}
                 >
+                  <i className="fa-solid fa-user" />
                   {navLink.title}
                 </Link>
               ))}
+              <div className="nav-link d-flex">
+                <img
+                  onClick={() => onLangChange("bg")}
+                  className="flex-grow-1 pe-1 align-items-center btn"
+                  src="https://flagsapi.com/BG/shiny/24.png"
+                />
+                <img
+                  onClick={() => onLangChange("en")}
+                  className="flex-grow-1 pe-1 align-items-center btn"
+                  src="https://flagsapi.com/US/shiny/24.png"
+                />
+              </div>
             </Nav>
           </Offcanvas.Body>
         </Navbar.Offcanvas>

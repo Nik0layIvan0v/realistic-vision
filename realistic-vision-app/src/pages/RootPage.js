@@ -9,7 +9,12 @@ export default function RootPage() {
   const [outletContent] = useState(content.pages[selectedLanguage]);
   return (
     <>
-      <Navigation expand="lg" lang={selectedLanguage} {...content.app} />
+      <Navigation
+        expand="lg"
+        lang={selectedLanguage}
+        {...content.app}
+        onLangChange={setSelectedLanguage}
+      />
       <Outlet context={[outletContent]} />
     </>
   );
