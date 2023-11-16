@@ -10,9 +10,7 @@ export default function RootPage() {
   return (
     <>
       <Navigation expand="lg" lang={selectedLanguage} {...content.app} />
-      <div id="app-content">
-        <Outlet context={[outletContent]} />
-      </div>
+      <Outlet context={[outletContent]} />
     </>
   );
 }

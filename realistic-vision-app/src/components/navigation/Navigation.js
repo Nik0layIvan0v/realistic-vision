@@ -3,6 +3,9 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars, faHouse } from "@fortawesome/free-solid-svg-icons";
+import "./Navigation.css";
 
 function Navigation({ expand, lang, ...app }) {
   return (
@@ -26,10 +29,14 @@ function Navigation({ expand, lang, ...app }) {
             <p className="d-inline h5"> {app.title}</p>
           </Link>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
+        <Navbar.Toggle
+          aria-controls={`offcanvasNavbar-expand-${expand} basic-navbar-nav rounded bg-white border border-0`}
+        >
+          <FontAwesomeIcon icon={faBars} />
+        </Navbar.Toggle>
         <Navbar.Offcanvas
           id={`offcanvasNavbar-expand-${expand}`}
-          aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
+          aria-labelledby={`offcanvasNavbarLabel-expand-${expand} basic-navbar-nav`}
           placement="end"
         >
           <Offcanvas.Header closeButton>
@@ -38,9 +45,13 @@ function Navigation({ expand, lang, ...app }) {
             </Offcanvas.Title>
           </Offcanvas.Header>
           <Offcanvas.Body>
-            <Nav className="justify-content-end flex-grow-1 pe-3">
+            <Nav className="justify-content-end flex-grow-1 pe-3 align-items-center">
               {app.navlinks[lang].map((navLink, index) => (
-                <Link key={index} className="nav-link" to={navLink.link}>
+                <Link
+                  key={index}
+                  className="nav-link display-1"
+                  to={navLink.link}
+                >
                   {navLink.title}
                 </Link>
               ))}
