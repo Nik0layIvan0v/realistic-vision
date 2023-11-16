@@ -1,0 +1,62 @@
+.video-player {
+  object-fit: fill;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.video-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+}
+
+.video-header {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 500px) {
+  .video-wrapper {
+    height: 250px;
+  }
+}
+
+/* Extra small devices (phones) */
+@media only screen and (min-width: 501px) and (max-width: 600px) {
+  .video-wrapper {
+    height: 300px;
+  }
+}
+
+/* Small devices (tablets) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .video-wrapper {
+    height: 384px;
+  }
+}
+
+/* Medium devices (desktops) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .video-wrapper {
+    height: 496px;
+  }
+}
+
+/* Large devices (large desktops) */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .video-wrapper {
+    min-height: 650px;
+  }
+}
+
+/* Extra large devices (extra-large desktops) */
+@media only screen and (min-width: 1201px) {
+  .video-wrapper {
+    min-height: 900px;
+  }
+}
