@@ -17,7 +17,7 @@ function HomePage() {
         source={forestSample}
         caption={
           <div className="d-flex h-100 w-100 justify-content-top">
-            <h2 className="text-light">We create the best animations</h2>
+            <h2 className="text-light">We test our products</h2>
           </div>
         }
       />
@@ -25,7 +25,7 @@ function HomePage() {
         source={sample}
         caption={
           <div className="d-flex h-100 w-100 justify-content-center align-items-center">
-            <h2 className="text-light">We create the best animations</h2>
+            <h2 className="text-light">We deliver the best quality</h2>
           </div>
         }
       />
