@@ -21,7 +21,7 @@ function GalleyMasonry({ imageData }) {
         }}
         img={imageToShow}
       />
-      <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 3, 900: 7 }}>
+      <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
         <Masonry gutter="5px">
           {imageData.map((img, index) => (
             <Measure key={index}>
@@ -33,7 +33,6 @@ function GalleyMasonry({ imageData }) {
                     alt={`mansory ${index + 1}`}
                     style={{
                       width: "100%",
-                      maxHeight: "350px",
                       display: "block",
                       objectFit: "fill",
                     }}

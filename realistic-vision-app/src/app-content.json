@@ -62,18 +62,78 @@
   },
   "pages": {
     "en": {
-      "HomePage": {},
-      "AboutUsPage": {},
-      "GalleryPage": {},
-      "ServicesPage": {},
-      "ContactPage": {}
+      "Home": {
+        "videos": [
+          { "id": 0, "src": "", "title": "" },
+          { "id": 0, "src": "", "title": "" },
+          { "id": 0, "src": "", "title": "" }
+        ]
+      },
+      "AboutUs": {},
+      "Gallery": {
+        "images": [
+          { "id": 0, "src": "", "title": "" },
+          { "id": 0, "src": "", "title": "" },
+          { "id": 0, "src": "", "title": "" }
+        ]
+      },
+      "Services": {
+        "serviceSections": [
+          {
+            "title": "STILL IMAGE",
+            "subTitle": "The traditional way",
+            "isSwaped": false,
+            "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
+            "description": {
+              "paragraphs": [
+                { "boldedWords": ["lorem", "ipsum"], "normalText": "" },
+                { "boldedWords": ["lorem", "ipsum"], "normalText": "" },
+                { "boldedWords": ["lorem", "ipsum"], "normalText": "" },
+                { "boldedWords": ["lorem", "ipsum"], "normalText": "" },
+                { "boldedWords": ["lorem", "ipsum"], "normalText": "" }
+              ]
+            }
+          }
+        ]
+      },
+      "Contacts": {}
     },
     "bg": {
-      "HomePage": {},
-      "AboutUsPage": {},
-      "GalleryPage": {},
-      "ServicesPage": {},
-      "ContactPage": {}
+      "Home": {
+        "videos": [
+          { "id": 0, "src": "", "title": "" },
+          { "id": 0, "src": "", "title": "" },
+          { "id": 0, "src": "", "title": "" }
+        ]
+      },
+      "AboutUs": {},
+      "Gallery": {
+        "images": [
+          { "id": 0, "src": "", "title": "" },
+          { "id": 0, "src": "", "title": "" },
+          { "id": 0, "src": "", "title": "" }
+        ]
+      },
+      "Services": {
+        "Sections": [
+          {
+            "title": "STILL IMAGE",
+            "subTitle": "The traditional way",
+            "isSwaped": false,
+            "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
+            "description": {
+              "paragraphs": [
+                { "boldedWords": ["lorem", "ipsum"], "normalText": "" },
+                { "boldedWords": ["lorem", "ipsum"], "normalText": "" },
+                { "boldedWords": ["lorem", "ipsum"], "normalText": "" },
+                { "boldedWords": ["lorem", "ipsum"], "normalText": "" },
+                { "boldedWords": ["lorem", "ipsum"], "normalText": "" }
+              ]
+            }
+          }
+        ]
+      },
+      "Contacts": {}
     }
   }
 }
