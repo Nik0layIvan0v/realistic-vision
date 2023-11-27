@@ -17,4 +17,5 @@
   font-family: 'Franklin Gothic Demi';
   font-size: x-large;
   font-weight: bold;
+  text-transform: capitalize;
 }

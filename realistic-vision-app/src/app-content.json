@@ -63,19 +63,11 @@
   "pages": {
     "en": {
       "Home": {
-        "videos": [
-          { "id": 0, "src": "", "title": "" },
-          { "id": 0, "src": "", "title": "" },
-          { "id": 0, "src": "", "title": "" }
-        ]
+        "videos": [{ "id": 0, "src": "", "title": "" }]
       },
       "AboutUs": {},
       "Gallery": {
-        "images": [
-          { "id": 0, "src": "", "title": "" },
-          { "id": 0, "src": "", "title": "" },
-          { "id": 0, "src": "", "title": "" }
-        ]
+        "images": [{ "id": 0, "src": "", "title": "" }]
       },
       "Services": {
         "Sections": [
@@ -205,19 +197,11 @@
     },
     "bg": {
       "Home": {
-        "videos": [
-          { "id": 0, "src": "", "title": "" },
-          { "id": 0, "src": "", "title": "" },
-          { "id": 0, "src": "", "title": "" }
-        ]
+        "videos": [{ "id": 0, "src": "", "title": "" }]
       },
       "AboutUs": {},
       "Gallery": {
-        "images": [
-          { "id": 0, "src": "", "title": "" },
-          { "id": 0, "src": "", "title": "" },
-          { "id": 0, "src": "", "title": "" }
-        ]
+        "images": [{ "id": 0, "src": "", "title": "" }]
       },
       "Services": {
         "Sections": [
