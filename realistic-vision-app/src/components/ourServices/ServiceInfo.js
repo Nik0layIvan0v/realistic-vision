@@ -1,20 +1,31 @@
+import React from "react";
 import { Container } from "react-bootstrap";
 
 function ServiceInfo({ title, subTitle, description, imageSrc, isSwaped }) {
   const LeftSide = (
-    <div className="m-3">
+    <div className="m-3 col">
       <h1>{title}</h1>
       <hr />
       <h2>{subTitle}</h2>
       {description?.paragraphs?.map((paragraph, index) => {
-        return <p key={index}>{paragraph?.text}</p>;
+        let formatedText = `<span>${paragraph.text}</span>`;
+        for (const boldedWord of paragraph.boldedWords) {
+          formatedText = formatedText.replace(
+            boldedWord,
+            `<b>${boldedWord}</b>`
+          );
+        }
+
+        return (
+          <p key={index} dangerouslySetInnerHTML={{ __html: formatedText }} />
+        );
       })}
     </div>
   );
 
   const RightSide = (
-    <div>
-      <img src={imageSrc} />
+    <div className="m-3 col">
+      <img width={"100%"} src={imageSrc} />
     </div>
   );
 
@@ -30,7 +41,11 @@ function ServiceInfo({ title, subTitle, description, imageSrc, isSwaped }) {
     </>
   );
 
-  return <Container className="d-lg-flex m-3 d-sm-block">{content}</Container>;
+  return (
+    <Container className="d-lg-flex m-3 d-sm-block w-100 row">
+      {content}
+    </Container>
+  );
 }
 
 export default ServiceInfo;
