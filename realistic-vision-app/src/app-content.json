@@ -83,9 +83,120 @@
             "title": "STILL IMAGE - EN",
             "subTitle": "The traditional way",
             "isSwaped": false,
+            "imageSrc": "https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg",
+            "description": {
+              "paragraphs": [
+                {
+                  "boldedWords": ["established", "will"],
+                  "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+                },
+                {
+                  "boldedWords": ["lorem", "ipsum"],
+                  "text": "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'."
+                },
+                {
+                  "boldedWords": ["lorem", "ipsum"],
+                  "text": "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                },
+                {
+                  "boldedWords": ["lorem", "ipsum"],
+                  "text": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+                },
+                {
+                  "boldedWords": ["lorem", "ipsum"],
+                  "text": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham."
+                }
+              ]
+            }
+          },
+          {
+            "title": "STILL IMAGE - EN",
+            "subTitle": "The traditional way",
+            "isSwaped": false,
             "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
             "description": {
-              "paragraphs": []
+              "paragraphs": [
+                {
+                  "boldedWords": ["established", "will"],
+                  "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+                },
+                {
+                  "boldedWords": ["lorem", "ipsum"],
+                  "text": "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'."
+                },
+                {
+                  "boldedWords": ["lorem", "ipsum"],
+                  "text": "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                },
+                {
+                  "boldedWords": ["lorem", "ipsum"],
+                  "text": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+                },
+                {
+                  "boldedWords": ["lorem", "ipsum"],
+                  "text": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham."
+                }
+              ]
+            }
+          },
+          {
+            "title": "STILL IMAGE - EN",
+            "subTitle": "The traditional way",
+            "isSwaped": true,
+            "imageSrc": "https://images.pexels.com/photos/1478685/pexels-photo-1478685.jpeg",
+            "description": {
+              "paragraphs": [
+                {
+                  "boldedWords": ["established", "will"],
+                  "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+                },
+                {
+                  "boldedWords": ["lorem", "ipsum"],
+                  "text": "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'."
+                },
+                {
+                  "boldedWords": ["lorem", "ipsum"],
+                  "text": "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                },
+                {
+                  "boldedWords": ["lorem", "ipsum"],
+                  "text": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+                },
+                {
+                  "boldedWords": ["lorem", "ipsum"],
+                  "text": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham."
+                }
+              ]
+            }
+          },
+          {
+            "title": "STILL IMAGE - EN",
+            "subTitle": "The traditional way",
+            "isSwaped": false,
+            "imageSrc": "https://images.pexels.com/photos/1486974/pexels-photo-1486974.jpeg",
+            "description": {
+              "paragraphs": [
+                {
+                  "boldedWords": ["established", "will"],
+                  "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+                },
+                {
+                  "boldedWords": ["lorem", "ipsum"],
+                  "text": "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'."
+                },
+                {
+                  "boldedWords": ["lorem", "ipsum"],
+                  "text": "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                },
+                {
+                  "boldedWords": ["lorem", "ipsum"],
+                  "text": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+                },
+                {
+                  "boldedWords": ["lorem", "ipsum"],
+                  "text": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham."
+                }
+              ]
             }
           }
         ]
@@ -118,11 +229,101 @@
             "description": {
               "paragraphs": [
                 {
-                  "boldedWords": ["lorem", "ipsum"],
+                  "boldedWords": ["established", "will"],
                   "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
                 },
                 {
                   "boldedWords": ["lorem", "ipsum"],
+                  "text": "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'."
+                },
+                {
+                  "boldedWords": ["lorem", "ipsum"],
+                  "text": "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                },
+                {
+                  "boldedWords": ["lorem", "ipsum"],
+                  "text": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+                },
+                {
+                  "boldedWords": ["lorem", "ipsum"],
+                  "text": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham."
+                }
+              ]
+            }
+          },
+          {
+            "title": "STILL IMAGE - BG",
+            "subTitle": "The traditional way",
+            "isSwaped": true,
+            "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
+            "description": {
+              "paragraphs": [
+                {
+                  "boldedWords": ["established", "will"],
+                  "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+                },
+                {
+                  "boldedWords": ["lorem", "ipsum"],
+                  "text": "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'."
+                },
+                {
+                  "boldedWords": ["lorem", "ipsum"],
+                  "text": "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                },
+                {
+                  "boldedWords": ["lorem", "ipsum"],
+                  "text": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+                },
+                {
+                  "boldedWords": ["lorem", "ipsum"],
+                  "text": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham."
+                }
+              ]
+            }
+          },
+          {
+            "title": "STILL IMAGE - BG",
+            "subTitle": "The traditional way - BG",
+            "isSwaped": false,
+            "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
+            "description": {
+              "paragraphs": [
+                {
+                  "boldedWords": ["established", "will"],
+                  "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+                },
+                {
+                  "boldedWords": ["lorem", "ipsum"],
+                  "text": "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'."
+                },
+                {
+                  "boldedWords": ["lorem", "ipsum"],
+                  "text": "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                },
+                {
+                  "boldedWords": ["lorem", "ipsum"],
+                  "text": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+                },
+                {
+                  "boldedWords": ["lorem", "ipsum"],
+                  "text": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham."
+                }
+              ]
+            }
+          },
+          {
+            "title": "STILL IMAGE - BG",
+            "subTitle": "The traditional way - BG",
+            "isSwaped": true,
+            "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
+            "description": {
+              "paragraphs": [
+                {
+                  "boldedWords": ["established", "will"],
+                  "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+                },
+                {
+                  "boldedWords": ["Lorem", "Ipsum"],
                   "text": "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'."
                 },
                 {
