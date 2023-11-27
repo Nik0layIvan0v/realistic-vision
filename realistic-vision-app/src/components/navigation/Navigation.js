@@ -33,7 +33,7 @@ function Navigation({
                 className="d-inline-block align-top mr-3"
               />
             ) : null}
-            <p className="d-inline h5"> {title}</p>
+            <p className="d-inline h5 nav-title">{title}</p>
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle
@@ -48,7 +48,7 @@ function Navigation({
         >
           <Offcanvas.Header closeButton>
             <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-              <p className="d-inline h5">{offcanvasNavbarLabel}</p>
+              <p className="d-inline h5 nav-title">{offcanvasNavbarLabel}</p>
             </Offcanvas.Title>
           </Offcanvas.Header>
           <Offcanvas.Body>

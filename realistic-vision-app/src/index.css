@@ -15,3 +15,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Baskerville Old Face';
+  src: local('baskerville-old-face-regular'),
+    url('./assets/fonts/baskerville-old-face-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Franklin Gothic Demi';
+  src: local('franklin-gothic-demi-regular'),
+    url('./assets/fonts/franklin-gothic-demi-regular.ttf') format('truetype');
+}
