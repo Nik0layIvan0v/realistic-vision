@@ -5,6 +5,7 @@ function ServicesPage() {
   const [content] = useOutletContext();
   const { Services } = content;
 
+  console.log(content);
   return (
     <Container className="text-light" fluid={false}>
       {Services.Sections.map((section, index) => {

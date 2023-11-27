@@ -80,18 +80,12 @@
       "Services": {
         "Sections": [
           {
-            "title": "STILL IMAGE",
+            "title": "STILL IMAGE - EN",
             "subTitle": "The traditional way",
             "isSwaped": false,
             "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
             "description": {
-              "paragraphs": [
-                { "boldedWords": ["lorem", "ipsum"], "normalText": "" },
-                { "boldedWords": ["lorem", "ipsum"], "normalText": "" },
-                { "boldedWords": ["lorem", "ipsum"], "normalText": "" },
-                { "boldedWords": ["lorem", "ipsum"], "normalText": "" },
-                { "boldedWords": ["lorem", "ipsum"], "normalText": "" }
-              ]
+              "paragraphs": []
             }
           }
         ]
@@ -117,7 +111,7 @@
       "Services": {
         "Sections": [
           {
-            "title": "STILL IMAGE",
+            "title": "STILL IMAGE - BG",
             "subTitle": "The traditional way",
             "isSwaped": false,
             "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
