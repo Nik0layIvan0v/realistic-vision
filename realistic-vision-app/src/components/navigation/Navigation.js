@@ -17,11 +17,12 @@ function Navigation({
 }) {
   return (
     <Navbar
-      className="bg-body-transparent bg-white"
+      className="bg-body-transparent bg-transparent m-0 p-0 w-100"
+      height={"33px"}
       expand={expand}
       sticky="top"
     >
-      <Container fluid>
+      <Container fluid className="w-100">
         <Navbar.Brand>
           <Link className="nav-link" to={`/`}>
             {logo ? (
@@ -33,13 +34,13 @@ function Navigation({
                 className="d-inline-block align-top mr-3"
               />
             ) : null}
-            <p className="d-inline h5 nav-title">{title}</p>
+            <p className="d-inline h3 nav-title text-light">{title}</p>
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls={`offcanvasNavbar-expand-${expand} basic-navbar-nav rounded bg-white border border-0`}
         >
-          <FontAwesomeIcon icon={faBars} />
+          <FontAwesomeIcon icon={faBars} color="white" />
         </Navbar.Toggle>
         <Navbar.Offcanvas
           id={`offcanvasNavbar-expand-${expand}`}
@@ -52,11 +53,11 @@ function Navigation({
             </Offcanvas.Title>
           </Offcanvas.Header>
           <Offcanvas.Body>
-            <Nav className="justify-content-end flex-grow-1 pe-3 align-items-center">
+            <Nav className="justify-content-end flex-grow-1 pe-3 align-items-center shadow">
               {navlinks.map((navLink, index) => (
                 <Link
                   key={index}
-                  className="nav-link display-1"
+                  className="nav-link display-1 text-light"
                   to={navLink.link}
                 >
                   <i className="fa-solid fa-user" />
