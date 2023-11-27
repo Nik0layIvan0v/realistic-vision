@@ -4,12 +4,22 @@ import ServiceInfo from "../components/ourServices/ServiceInfo";
 function ServicesPage() {
   const [content] = useOutletContext();
   const { Services } = content;
-  console.log(Services.Sections);
+
   return (
-    <Container className="text-light">
-      {Services.Sections.map((section) => (
-        <ServiceInfo section={section} />
-      ))}
+    <Container className="text-light" fluid={false}>
+      {Services.Sections.map((section, index) => {
+        const { title, subTitle, description, imageSrc, isSwaped } = section;
+        return (
+          <ServiceInfo
+            key={index}
+            title={title}
+            subTitle={subTitle}
+            description={description}
+            imageSrc={imageSrc}
+            isSwaped={isSwaped}
+          />
+        );
+      })}
     </Container>
   );
 }
