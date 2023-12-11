@@ -1,24 +1,15 @@
-import GalleyMasonry from "../components/mansoryGallery/GalleryMasonry";
-import { useState } from "react";
+import GalleyMasonry from '../components/mansoryGallery/GalleryMasonry';
+import { useState } from 'react';
 
-function getRandomInt(max) {
-  return Math.floor(Math.random() * max);
-}
-
-const range = (start, stop, step) =>
-  Array.from({ length: (stop - start) / step + 1 }, (_, i) => {
-    return {
-      id: start + i * step,
-      src: `https://picsum.photos/${getRandomInt(10)}00/${getRandomInt(1)}00`,
-      title: `Image: ${i + 1}`,
-    };
-  });
-//
 function GalleryPage() {
-  const [images, setImages] = useState(range(1, 20, 1));
-  //TODO: Dynamically add them from assets folder
-  //const files = fs.readdirSync('/assets/photos/');
-  return <GalleyMasonry imageData={images} />;
+	const images = require.context('../assets/images', true);
+	const imageList = images.keys().map((image) => images(image));
+	let testImages = imageList.map((image) => {
+		return { src: image, title: image.split('/').pop() };
+	});
+
+	const [imgSources, setImgSources] = useState(testImages);
+	return <GalleyMasonry imageData={imgSources} />;
 }
 
 export default GalleryPage;

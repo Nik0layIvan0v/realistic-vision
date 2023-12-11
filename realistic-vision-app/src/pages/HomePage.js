@@ -4,7 +4,7 @@ import forestSample from '../assets/videos/file_sample_forest.mp4';
 import VideoContainer from '../components/containers/video/VideoContainer';
 function HomePage() {
 	return (
-		<>
+		<div style={{ marginTop: '56px' }}>
 			<VideoContainer
 				source={sample}
 				caption={
@@ -35,7 +35,7 @@ function HomePage() {
 					</div>
 				}
 			/>
-		</>
+		</div>
 	);
 }
 
