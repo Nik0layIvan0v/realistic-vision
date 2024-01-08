@@ -29,7 +29,7 @@ function Navigation({
       expand={expand}
       fixed={"top"}
     >
-      <Container fluid className="w-100">
+      <Container fluid>
         <Navbar.Brand>
           <Link className="nav-link" to={`/`}>
             {logo ? (
