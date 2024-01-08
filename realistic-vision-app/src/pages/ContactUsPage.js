@@ -53,8 +53,12 @@ function ContactUsPage() {
       >
         <Form
           method="GET"
-          action={`mailto:martiEmail@realistic-vision.com?subject=${formState.subject}&body=${formState.message}`}
-          enctype="text/plain"
+          action={`mailto:martiEmail@realistic-vision.com?subject=${
+            formState.subject
+          }&body=${decodeURI(
+            `Hi, my name is:${formState.name}! My Message is:${formState.body}`
+          )}`}
+          encType="text/plain"
           className="col-12 col-lg-6 col-sm-12 col-md-6 mt-0"
         >
           <Form.Group className="mb-3 mt-3">
@@ -102,8 +106,8 @@ function ContactUsPage() {
               rows={50}
               className="bg-dark text-light"
               style={{ height: "134px", resize: "none" }}
-              name="message"
-              value={formState.message ?? ""}
+              name="body"
+              value={formState.body ?? ""}
               onChange={handleChange}
             />
           </FloatingLabel>
