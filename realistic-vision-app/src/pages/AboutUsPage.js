@@ -5,11 +5,13 @@ function AboutUsPage() {
   const [content] = useOutletContext();
   return (
     <div
+      className="right-half-black"
       style={{
         background: `url(${office}) no-repeat`,
         backgroundSize: "cover",
-        backgroundPosition: "center",
-        height: "100vh",
+        backgroundPosition: "fill",
+        minHeight: "100vh",
+        padding: 0,
         padding: 0,
         margin: 0,
         position: "relative",
@@ -24,6 +26,7 @@ function AboutUsPage() {
           fontSize: "35px",
           width: "100%",
           textAlign: "center",
+          zIndex: 1,
         }}
       >
         This is about page
