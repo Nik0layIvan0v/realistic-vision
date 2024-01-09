@@ -1,0 +1,21 @@
+.contact-us-form-wrapper {
+  position: absolute;
+  top: 200px;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'fantasy';
+  font-size: 15px;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: whitesmoke;
+  width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+  .contact-us-form-wrapper {
+    top: -40px;
+    height: auto;
+  }
+}
