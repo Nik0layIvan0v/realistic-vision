@@ -1,5 +1,4 @@
 import GalleyMasonry from "../components/mansoryGallery/GalleryMasonry";
-import { useState } from "react";
 
 function GalleryPage() {
   const images = require.context("../assets/images", true);
@@ -8,8 +7,7 @@ function GalleryPage() {
     return { src: image, title: image.split("/").pop() };
   });
 
-  const [imgSources, setImgSources] = useState(testImages);
-  return <GalleyMasonry imageData={imgSources} />;
+  return <GalleyMasonry imageData={testImages} />;
 }
 
 export default GalleryPage;
