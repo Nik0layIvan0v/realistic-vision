@@ -17,6 +17,7 @@ function ImageModal({ ...props }) {
 				<CloseButton
 					onClick={props.onHide}
 					aria-label="Close"
+					variant="white"
 					style={{
 						position: 'absolute',
 						right: 10,
@@ -24,15 +25,21 @@ function ImageModal({ ...props }) {
 						fontSize: '30px',
 					}}
 				/>
-				<img
-					src={props.img?.src}
-					alt={`mansory ${props.img?.id}`}
-					style={{
-						width: '100%',
-						display: 'block',
-						objectFit: 'cover',
-					}}
-				/>
+				<div className="w-90 h-100 bg-black">
+					<img
+						src={props.img?.src}
+						alt={`mansory ${props.img?.id}`}
+						style={{
+							display: 'block',
+							objectFit: 'contain',
+							height: '100%',
+							width: '100%',
+							marginLeft: 'auto',
+							marginRight: 'auto',
+							margin: 'auto',
+						}}
+					/>
+				</div>
 			</Modal.Body>
 		</Modal>
 	);

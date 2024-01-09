@@ -10,13 +10,11 @@
 .nav-title {
   font-family: 'Baskerville Old Face';
   font-size: x-large;
-  font-weight: bold;
 }
 
 .nav-link {
   font-family: 'Franklin Gothic Demi';
   font-size: x-large;
-  font-weight: bold;
   text-transform: capitalize;
   color: whitesmoke;
 }
