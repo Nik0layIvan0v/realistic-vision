@@ -13,10 +13,19 @@
 }
 
 .nav-link {
-  font-family: 'Franklin Gothic Demi';
+  font-family: 'Franklin Gothic Demi sans-serif';
   font-size: x-large;
+  font-weight: lighter;
   text-transform: capitalize;
   color: whitesmoke;
+}
+
+.nav-link:hover {
+  color: chocolate;
+}
+
+.nav-link:active {
+  color: chocolate;
 }
 
 @media only screen and (max-width: 991px) {

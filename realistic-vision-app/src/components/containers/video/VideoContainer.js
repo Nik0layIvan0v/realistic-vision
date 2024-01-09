@@ -1,7 +1,13 @@
 import styles from "./VideoContainer.module.css";
-function VideoContainer({ source, type = "video/mp4", caption, poster }) {
+function VideoContainer({
+  source,
+  type = "video/mp4",
+  caption,
+  poster,
+  className,
+}) {
   return (
-    <div className={styles["video-wrapper"]}>
+    <div className={`${styles["video-wrapper"]} ${className}`}>
       <video
         playsInline
         autoPlay
