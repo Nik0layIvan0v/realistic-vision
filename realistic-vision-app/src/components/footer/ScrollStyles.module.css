@@ -1,0 +1,32 @@
+.animatedArrow {
+    position: absolute;
+    bottom: 3px;
+    width: 100%;
+    display: flex;
+    justify-items: flex-start;
+    justify-content: center;
+    text-shadow: #0a0a0a 0px 0px 5px;
+}
+
+.animationUpAndDown {
+    animation: jumpInfinite 1s infinite;
+    cursor: pointer;
+    filter: drop-shadow(0 0 1rem black);
+    vertical-align: text-top;
+    position: absolute;
+    bottom: 16px;
+}
+
+@keyframes jumpInfinite {
+    0% {
+        bottom: 2px;
+    }
+
+    50% {
+        bottom: 16px;
+    }
+
+    100% {
+        bottom: 2px;
+    }
+}

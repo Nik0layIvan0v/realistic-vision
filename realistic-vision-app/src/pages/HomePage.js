@@ -37,17 +37,17 @@ function HomePage() {
 					color="green"
 				/>
 			</Section>
-			<Section ref={sectionThreeRef} backgroundColor="white">
+			<Section ref={sectionThreeRef} backgroundColor="dark">
 				<div className="h-100 w-100 d-flex">
 					<img
 						style={{ width: '100%', height: '100%' }}
-						src="https://www.play-time.es/wp-content/uploads/2023/11/PLAY_TIME_ONA_AL-KHOBAR_A_01.jpg"
+						src="https://thechive.com/wp-content/uploads/2019/12/person-hilariously-photoshops-animals-onto-random-things-xx-photos-25.jpg"
 						alt="section"
 					/>
 				</div>
 				<ScrollToSectionButton
 					sectionRef={sectionFourRef}
-					color="white"
+					color="dark"
 				/>
 			</Section>
 			<Section ref={sectionFourRef} backgroundColor="grey">

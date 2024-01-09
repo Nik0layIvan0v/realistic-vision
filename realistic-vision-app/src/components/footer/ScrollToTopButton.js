@@ -1,5 +1,6 @@
-import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
+import { faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import styles from './ScrollStyles.module.css';
 import React from 'react';
 const ScrollToTopButton = ({ color }) => {
 	// const [showScrollTopButton, setShowScrollTopButton] = useState(false);
@@ -32,17 +33,15 @@ const ScrollToTopButton = ({ color }) => {
 				justifyContent: 'center',
 			}}
 		>
-			<FontAwesomeIcon
-				icon={faChevronUp}
-				style={{
-					cursor: 'pointer',
-					filter: 'drop-shadow(0 0 1rem black)',
-				}}
-				size="xl"
-				color={color ?? 'black'}
-				className="m-0 p-0"
-				onClick={scrollTop}
-			/>
+			<div style={{ position: 'relative' }}>
+				<FontAwesomeIcon
+					icon={faChevronUp}
+					className={styles['animationUpAndDown']}
+					size="xl"
+					color={color ?? 'black'}
+					onClick={scrollTop}
+				/>
+			</div>
 		</div>
 	);
 };
