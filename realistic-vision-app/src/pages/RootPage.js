@@ -5,9 +5,7 @@ import { AppContext } from "../contexts/AppContext";
 
 export default function RootPage() {
   const content = useContext(AppContext);
-
   const [selectedLanguage, setSelectedLanguage] = useState("bg");
-
   const [outletContent, setOutletContent] = useState(
     content.pages[selectedLanguage]
   );

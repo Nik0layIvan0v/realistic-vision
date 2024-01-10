@@ -1,13 +1,9 @@
 import GalleyMasonry from "../components/mansoryGallery/GalleryMasonry";
+import { useOutletContext } from "react-router-dom";
 
 function GalleryPage() {
-  const images = require.context("../assets/images", true);
-  const imageList = images.keys().map((image) => images(image));
-  let testImages = imageList.map((image) => {
-    return { src: image, title: image.split("/").pop() };
-  });
-
-  return <GalleyMasonry imageData={testImages} />;
+  const [content] = useOutletContext();
+  return <GalleyMasonry imageData={content.Gallery.images} />;
 }
 
 export default GalleryPage;

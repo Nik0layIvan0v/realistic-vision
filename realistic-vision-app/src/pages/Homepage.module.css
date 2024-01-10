@@ -1,9 +1,14 @@
 .section-wrapper {
   margin-top: 0px;
-  overflow-y: hidden; /* Hide vertical scrollbar */
-  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: scroll; /* Hide vertical scrollbar */
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
+  scroll-snap-type: y mandatory;
+  height: 100vh;
+}
+
+.section-wrapper section {
+  scroll-snap-align: start;
 }
 
 .section-wrapper::-webkit-scrollbar {

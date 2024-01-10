@@ -21,15 +21,14 @@
 }
 
 .nav-link:hover {
-  color: chocolate;
+  color: black;
 }
 
 .nav-link:active {
-  color: chocolate;
 }
 
 @media only screen and (max-width: 991px) {
   .nav-link {
-    color: chocolate;
+    color: black;
   }
 }

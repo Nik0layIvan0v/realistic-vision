@@ -63,12 +63,10 @@
   "pages": {
     "en": {
       "Home": {
-        "videos": [{ "id": 0, "src": "", "title": "" }]
+        "images": [{}],
+        "videos": [{}]
       },
       "AboutUs": {},
-      "Gallery": {
-        "images": [{ "id": 0, "src": "", "title": "" }]
-      },
       "Services": {
         "Sections": [
           {
@@ -193,16 +191,60 @@
           }
         ]
       },
-      "Contacts": {}
+      "Contacts": {
+        "location": {
+          "title": "OFFICE LOCATION",
+          "address": "1 Druzba str, Sofia bulgaria",
+          "email": "example@realistic-vision.com",
+          "phoneNumber": "+35988897987987"
+        },
+        "workingHours": {
+          "title": "OPENING HOURS",
+          "hoursList": [
+            "Mon - Fri: 7am - 10pm",
+            "Saturday: 8am - 10pm",
+            "Sunday: 8am - 11pm"
+          ]
+        },
+        "form": {
+          "action": "mailto:admin@realistic-vision.com?subject=%SUBJECT%&body=%BODY%",
+          "title": "FIND US",
+          "nameField": {
+            "label": "Name",
+            "placeholder": "Enter name here..."
+          },
+          "emailField": {
+            "label": "Email*",
+            "placeholder": "Enter email here..."
+          },
+          "subjectField": {
+            "label": "Subject*",
+            "placeholder": "Enter subject here..."
+          },
+          "bodyField": {
+            "label": "Message*",
+            "placeholder": "Enter message here..."
+          },
+          "submitBtnText": "SEND"
+        },
+        "iconLinks": {
+          "facebook": "https://www.facebook.com/bgautofun/",
+          "linkedin": "https://www.linkedin.com/",
+          "messenger": "https://www.messenger.com/?locale=bg_BG",
+          "youtube": "https://www.youtube.com/"
+        }
+      },
+      "Gallery": {
+        "images": [{}],
+        "videos": [{}]
+      }
     },
     "bg": {
       "Home": {
-        "videos": [{ "id": 0, "src": "", "title": "" }]
+        "images": [{}],
+        "videos": [{}]
       },
       "AboutUs": {},
-      "Gallery": {
-        "images": [{ "id": 0, "src": "", "title": "" }]
-      },
       "Services": {
         "Sections": [
           {
@@ -327,7 +369,53 @@
           }
         ]
       },
-      "Contacts": {}
+      "Contacts": {
+        "location": {
+          "title": "Намерете ни",
+          "address": "гр. Русе, кв. Център 1",
+          "email": "example@realistic-vision.com",
+          "phoneNumber": "+35988897987987"
+        },
+        "workingHours": {
+          "title": "Работно време",
+          "hoursList": [
+            "Mon - Fri: 7am - 10pm",
+            "Saturday: 8am - 10pm",
+            "Sunday: 8am - 11pm"
+          ]
+        },
+        "form": {
+          "action": "mailto:admin@realistic-vision.com?subject=%SUBJECT%&body=%BODY%",
+          "title": "ПИШЕТЕ НИ",
+          "nameField": {
+            "label": "Име",
+            "placeholder": "Напишете името си тук..."
+          },
+          "emailField": {
+            "label": "Имейл*",
+            "placeholder": "Напишете имейл адреса си тук..."
+          },
+          "subjectField": {
+            "label": "Тема*",
+            "placeholder": "Напишете тема на разговора тук..."
+          },
+          "bodyField": {
+            "label": "Съобщение*",
+            "placeholder": "Напишете съобщението си тук..."
+          },
+          "submitBtnText": "ИЗПРАТИ"
+        },
+        "iconLinks": {
+          "facebook": "https://www.facebook.com/bgautofun/",
+          "linkedin": "https://www.linkedin.com/",
+          "messenger": "https://www.messenger.com/?locale=bg_BG",
+          "youtube": "https://www.youtube.com/"
+        }
+      },
+      "Gallery": {
+        "images": [{}],
+        "videos": [{}]
+      }
     }
   }
 }
