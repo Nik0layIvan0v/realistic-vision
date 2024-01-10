@@ -19,9 +19,10 @@ function Navigation({
 }) {
   const navigate = useNavigate();
   const [showOffcanvas, setShowOffcanvas] = useState(false);
+
   return (
     <Navbar
-      className="m-0 p-3 mb-3 w-100"
+      className="m-0 p-0 mb-3 w-100"
       height={"36px"}
       expand={expand}
       fixed={"top"}
@@ -44,7 +45,7 @@ function Navigation({
             ) : null}
             <p
               className="d-inline h3 nav-title text-light"
-              style={{ fontSize: "25px" }}
+              style={{ fontSize: "28px" }}
             >
               {title}
             </p>
@@ -81,7 +82,7 @@ function Navigation({
                   key={index}
                   className="nav-link display-1 btn"
                   style={{
-                    fontSize: "25px",
+                    fontSize: "28px",
                     textShadow:
                       showOffcanvas === true ? "none" : "#0a0a0a 0px 0px 5px",
                   }}

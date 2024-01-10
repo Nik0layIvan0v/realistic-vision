@@ -4,10 +4,10 @@ import React from "react";
 import styles from "./ScrollStyles.module.css";
 
 const ScrollToSectionButton = React.forwardRef((props, ref) => {
-  const scrollToSectionHandler = (ref) => {
-    window.scrollTo({
-      top: ref.current?.offsetTop,
+  const scrollToIntoViewHandler = (ref) => {
+    ref.current?.scrollIntoView({
       behavior: "smooth",
+      block: "start",
     });
   };
 
@@ -15,10 +15,7 @@ const ScrollToSectionButton = React.forwardRef((props, ref) => {
     <div
       className={styles["animatedArrow"]}
       ref={ref}
-      onClick={() => {
-        console.log("Click");
-        scrollToSectionHandler(props.sectionRef);
-      }}
+      onClick={() => scrollToIntoViewHandler(props.sectionRef)}
     >
       {props.children ?? (
         <div style={{ position: "relative" }}>

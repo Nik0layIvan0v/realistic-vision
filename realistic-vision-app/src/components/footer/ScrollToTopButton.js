@@ -1,29 +1,18 @@
-import { faChevronDown, faChevronUp } from "@fortawesome/free-solid-svg-icons";
+import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styles from "./ScrollStyles.module.css";
 import React from "react";
-const ScrollToTopButton = ({ color }) => {
-  // const [showScrollTopButton, setShowScrollTopButton] = useState(false);
-
-  // useEffect(() => {
-  //   window.addEventListener("scroll", () => {
-  //     if (window.scrollY > 300) {
-  //       setShowScrollTopButton(true);
-  //     } else {
-  //       setShowScrollTopButton(false);
-  //     }
-  //   });
-  // }, []);
-
-  const scrollTop = () => {
-    window.scrollTo({
-      top: 0,
+const ScrollToTopButton = React.forwardRef((props, ref) => {
+  const scrollToIntoViewHandler = (ref) => {
+    ref.current?.scrollIntoView({
       behavior: "smooth",
+      block: "start",
     });
   };
 
   return (
     <div
+      ref={ref}
       style={{
         position: "absolute",
         bottom: "3px",
@@ -38,12 +27,12 @@ const ScrollToTopButton = ({ color }) => {
           icon={faChevronUp}
           className={styles["animationUpAndDown"]}
           size="xl"
-          color={color ?? "black"}
-          onClick={scrollTop}
+          color={props.color ?? "black"}
+          onClick={() => scrollToIntoViewHandler(props.sectionRef)}
         />
       </div>
     </div>
   );
-};
+});
 
 export default ScrollToTopButton;

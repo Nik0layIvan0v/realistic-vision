@@ -15,7 +15,7 @@ function HomePage() {
 
   return (
     <div className={styles["section-wrapper"]}>
-      <Section ref={sectionOneRef} backgroundColor="white">
+      <Section ref={sectionOneRef} backgroundColor="dark">
         <div className="h-100 w-100 d-flex">
           <img
             style={{ width: "100%", height: "100%" }}
@@ -25,11 +25,11 @@ function HomePage() {
         </div>
         <ScrollToSectionButton sectionRef={sectionTwoRef} color="white" />
       </Section>
-      <Section ref={sectionTwoRef} backgroundColor="blue">
+      <Section ref={sectionTwoRef} backgroundColor="dark">
         <div className="h-100 w-100 d-flex">
           <VideoContainer source={sample} />
         </div>
-        <ScrollToSectionButton sectionRef={sectionThreeRef} color="green" />
+        <ScrollToSectionButton sectionRef={sectionThreeRef} color="white" />
       </Section>
       <Section ref={sectionThreeRef} backgroundColor="dark">
         <div className="h-100 w-100 d-flex">
@@ -41,11 +41,11 @@ function HomePage() {
         </div>
         <ScrollToSectionButton sectionRef={sectionFourRef} color="dark" />
       </Section>
-      <Section ref={sectionFourRef} backgroundColor="grey">
+      <Section ref={sectionFourRef} backgroundColor="dark">
         <div className="h-100 w-100 d-flex">
           <VideoContainer source={forestSample} />
         </div>
-        <ScrollToTopButton color="white" />
+        <ScrollToTopButton sectionRef={sectionOneRef} color="white" />
       </Section>
     </div>
   );
