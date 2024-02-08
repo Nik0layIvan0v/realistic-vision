@@ -22,7 +22,7 @@ function Navigation({
 
   return (
     <Navbar
-      className="m-0 p-0 mb-3 w-100"
+      className="m-0 p-3 mb-3 w-100"
       height={"36px"}
       expand={expand}
       fixed={"top"}
@@ -83,8 +83,6 @@ function Navigation({
                   className="nav-link display-1 btn"
                   style={{
                     fontSize: "28px",
-                    textShadow:
-                      showOffcanvas === true ? "none" : "#0a0a0a 0px 0px 5px",
                   }}
                   to={navLink.link}
                   onClick={(event) => {
