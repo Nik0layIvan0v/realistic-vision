@@ -7,10 +7,14 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 function CarouselSection({ components = [], defaultActiveIndex = 0 }) {
   const handleSlideChange = (swiper) => {
-    console.log(swiper);
+    //console.log(swiper);
   };
 
-  const handleonActiveIndexChange = () => {};
+  const handleonActiveIndexChange = (swipper) => {
+    // TODO: Make left and right arrows not visible when slide reach start or end
+    // console.log(swipper.navigation);
+    // console.log(swipper.activeIndex);
+  };
 
   return (
     <Swiper
@@ -18,10 +22,7 @@ function CarouselSection({ components = [], defaultActiveIndex = 0 }) {
       modules={[Navigation, Pagination, Scrollbar, A11y]}
       spaceBetween={0}
       slidesPerView={1}
-      onActiveIndexChange={(swipper) => {
-        console.log(swipper.navigation);
-        console.log(swipper.activeIndex);
-      }}
+      onActiveIndexChange={handleonActiveIndexChange}
       navigation
       scrollbar={{ draggable: true }}
       onSlideChange={handleSlideChange}
