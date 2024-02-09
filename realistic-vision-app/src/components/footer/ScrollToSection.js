@@ -5,7 +5,7 @@ import styles from "./ScrollStyles.module.css";
 
 const ScrollToSectionButton = React.forwardRef((props, ref) => {
   const scrollToIntoViewHandler = (ref) => {
-    console.log(ref);
+    console.log(ref, props);
     ref.current?.scrollIntoView({
       behavior: "smooth",
       block: "start",

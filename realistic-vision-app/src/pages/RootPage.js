@@ -6,6 +6,7 @@ import { NavContext } from "../contexts/NavContext";
 
 export default function RootPage() {
   const content = useContext(AppContext);
+  const [navShowContext, setNavShowContext] = useState(true);
   const [selectedLanguage, setSelectedLanguage] = useState("bg");
   const [outletContent, setOutletContent] = useState(
     content.pages[selectedLanguage]
@@ -29,11 +30,9 @@ export default function RootPage() {
     }
   };
 
-  const [navHideContext, setNavHideContext] = useState(false);
-
   return (
     <>
-      <NavContext.Provider value={[navHideContext, setNavHideContext]}>
+      <NavContext.Provider value={[setNavShowContext]}>
         <Navigation
           expand="lg"
           logo={content?.app?.logo}
@@ -41,7 +40,7 @@ export default function RootPage() {
           offcanvasNavbarLabel={content?.app?.offcanvasNavbarLabel}
           navlinks={navLinks}
           onLangChange={onChangeContent}
-          navLinksHide={navHideContext}
+          navLinksHide={navShowContext}
         />
         <Outlet context={[outletContent]} />
       </NavContext.Provider>
