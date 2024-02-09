@@ -13,7 +13,7 @@ const BG_homePageVideos = require.context("../assets/videos", true);
 const BG_galleryPage_Images = require.context("../assets/images", true);
 const BG_galleryPage_Videos = require.context("../assets/videos", true);
 
-const getFileObjects = (files) => {
+export const getFileObjects = (files) => {
   if (!files) {
     throw new Error(`getFileObjects: files can't be null!`);
   }

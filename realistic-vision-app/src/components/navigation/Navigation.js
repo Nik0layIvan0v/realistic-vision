@@ -16,13 +16,14 @@ function Navigation({
   logo,
   title,
   offcanvasNavbarLabel,
+  navLinksHide,
 }) {
+  console.log(navLinksHide);
   const navigate = useNavigate();
   const [showOffcanvas, setShowOffcanvas] = useState(false);
-
   return (
     <Navbar
-      className="m-0 p-3 mb-3 w-100"
+      className="m-0 pl-3 pr-3 pt-0 mb-3 w-100 mt-0"
       height={"36px"}
       expand={expand}
       fixed={"top"}
@@ -83,6 +84,7 @@ function Navigation({
                   className="nav-link display-1 btn"
                   style={{
                     fontSize: "28px",
+                    textShadow: showOffcanvas ? "none" : "#0a0a0a 0px 0px 2px",
                   }}
                   to={navLink.link}
                   onClick={(event) => {
@@ -96,14 +98,22 @@ function Navigation({
               ))}
               <div className="nav-link d-flex">
                 <img
-                  onClick={onLangChange}
+                  onClick={(event) => {
+                    event.preventDefault();
+                    onLangChange(event);
+                    setShowOffcanvas(false);
+                  }}
                   name={"bg"}
                   className="flex-grow-1 pe-1 align-items-center btn"
                   src="https://flagsapi.com/BG/shiny/24.png"
                   alt="bg flag"
                 />
                 <img
-                  onClick={onLangChange}
+                  onClick={(event) => {
+                    event.preventDefault();
+                    onLangChange(event);
+                    setShowOffcanvas(false);
+                  }}
                   name={"en"}
                   className="flex-grow-1 pe-1 align-items-center btn"
                   src="https://flagsapi.com/US/shiny/24.png"

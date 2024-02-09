@@ -6,6 +6,10 @@ import ScrollToTopButton from "../components/footer/ScrollToTopButton";
 import styles from "./Homepage.module.css";
 import ScrollToSectionButton from "../components/footer/ScrollToSection";
 import Section from "../components/containers/section/Section";
+import { NavContext } from "../contexts/NavContext";
+import ImageContainer from "../components/containers/Image/ImageContainer";
+import CarouselSection from "../components/containers/carousels/CarouselSection";
+import Carousel from "react-bootstrap/Carousel";
 
 function HomePage() {
   const sectionOneRef = createRef();
@@ -13,38 +17,30 @@ function HomePage() {
   const sectionThreeRef = createRef();
   const sectionFourRef = createRef();
 
+  const components = [
+    <ImageContainer src="https://vivid-vision.net/wp-content/uploads/2023/04/22075_sothebys3.jpg" />,
+    <div className="d-flex justify-content-center align-content-center">
+      <h1>Second Slide</h1>
+    </div>,
+    <ImageContainer src="https://vivid-vision.net/wp-content/uploads/2023/04/22075_sothebys3.jpg" />,
+  ];
+
   return (
     <div className={styles["section-wrapper"]}>
       <Section ref={sectionOneRef} backgroundColor="dark">
-        <div className="h-100 w-100 d-flex">
-          <img
-            style={{ width: "100%", height: "100%" }}
-            src="https://vivid-vision.net/wp-content/uploads/2023/04/22075_sothebys3.jpg"
-            alt="section"
-          />
-        </div>
+        <CarouselSection components={components} defaultActiveIndex={1} />
         <ScrollToSectionButton sectionRef={sectionTwoRef} color="white" />
       </Section>
       <Section ref={sectionTwoRef} backgroundColor="dark">
-        <div className="h-100 w-100 d-flex">
-          <VideoContainer source={sample} />
-        </div>
+        <VideoContainer source={sample} className={"w-100 h-100"} />
         <ScrollToSectionButton sectionRef={sectionThreeRef} color="white" />
       </Section>
       <Section ref={sectionThreeRef} backgroundColor="dark">
-        <div className="h-100 w-100 d-flex">
-          <img
-            style={{ width: "100%", height: "100%" }}
-            src="https://thechive.com/wp-content/uploads/2019/12/person-hilariously-photoshops-animals-onto-random-things-xx-photos-25.jpg"
-            alt="section"
-          />
-        </div>
+        <ImageContainer src="https://thechive.com/wp-content/uploads/2019/12/person-hilariously-photoshops-animals-onto-random-things-xx-photos-25.jpg" />
         <ScrollToSectionButton sectionRef={sectionFourRef} color="dark" />
       </Section>
       <Section ref={sectionFourRef} backgroundColor="dark">
-        <div className="h-100 w-100 d-flex">
-          <VideoContainer source={forestSample} />
-        </div>
+        <VideoContainer source={forestSample} className={"w-100 h-100"} />
         <ScrollToTopButton sectionRef={sectionOneRef} color="white" />
       </Section>
     </div>

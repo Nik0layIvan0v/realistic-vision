@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 import Navigation from "../components/navigation/Navigation";
 import { useContext, useState } from "react";
 import { AppContext } from "../contexts/AppContext";
+import { NavContext } from "../contexts/NavContext";
 
 export default function RootPage() {
   const content = useContext(AppContext);
@@ -28,17 +29,22 @@ export default function RootPage() {
     }
   };
 
+  const [navHideContext, setNavHideContext] = useState(false);
+
   return (
     <>
-      <Navigation
-        expand="lg"
-        logo={content?.app?.logo}
-        title={content?.app?.title}
-        offcanvasNavbarLabel={content?.app?.offcanvasNavbarLabel}
-        navlinks={navLinks}
-        onLangChange={onChangeContent}
-      />
-      <Outlet context={[outletContent]} />
+      <NavContext.Provider value={[navHideContext, setNavHideContext]}>
+        <Navigation
+          expand="lg"
+          logo={content?.app?.logo}
+          title={content?.app?.title}
+          offcanvasNavbarLabel={content?.app?.offcanvasNavbarLabel}
+          navlinks={navLinks}
+          onLangChange={onChangeContent}
+          navLinksHide={navHideContext}
+        />
+        <Outlet context={[outletContent]} />
+      </NavContext.Provider>
     </>
   );
 }

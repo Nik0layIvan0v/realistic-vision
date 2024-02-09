@@ -1,11 +1,19 @@
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ImageModal from "../modals/ImageModal";
 import { useSpring, animated } from "react-spring";
+import { getFileObjects } from "../../contexts/AppContext";
 
 function GalleyMasonry({ imageData }) {
-  const [imageToShow, setImageToShow] = useState(null);
-  const [modalShow, setModalShow] = useState(false);
+  const controlNavbar = () => {
+    console.log("HERE!!!");
+    // if (window.scrollY > 10000) {
+    //   return setNavHideContext(false);
+    // }
+
+    // return setNavHideContext(true);
+  };
+
   const zoomImage = (img) => {
     setImageToShow(img);
     setModalShow(true);
@@ -14,8 +22,28 @@ function GalleyMasonry({ imageData }) {
   const spring = useSpring({
     from: { opacity: 0, transform: "translateY(100%)" },
     to: { opacity: 1, transform: "translateY(0)" },
-    config: { duration: 500 },
+    config: { duration: 1000 },
   });
+
+  const [imageToShow, setImageToShow] = useState(null);
+  const [modalShow, setModalShow] = useState(false);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    window.addEventListener("scroll", controlNavbar);
+    const fetchData = async () => {
+      setLoading(false);
+    };
+
+    fetchData();
+    return () => {
+      window.removeEventListener("scroll", controlNavbar);
+    };
+  }, []);
+
+  if (loading) {
+    return <div>Loading...</div>;
+  }
 
   return (
     <>
