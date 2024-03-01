@@ -45,7 +45,10 @@ function Navigation({
 							) : null}
 							<p
 								className="d-inline h3 nav-title text-light"
-								style={{ fontSize: '28px' }}
+								style={{
+									fontSize: '28px',
+									textShadow: '1px 1px 1px 1px black',
+								}}
 							>
 								{title}
 							</p>
@@ -87,6 +90,7 @@ function Navigation({
 										className="nav-link display-1 btn"
 										style={{
 											fontSize: '28px',
+											textShadow: '1px 1px 1px black',
 										}}
 										to={navLink.link}
 										onClick={(event) => {
