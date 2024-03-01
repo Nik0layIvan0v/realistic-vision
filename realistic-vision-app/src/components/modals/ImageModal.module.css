@@ -1,0 +1,18 @@
+.modal-close-button {
+    position: absolute;
+    right: 10px;
+    top: 10;
+    font-size: 30px;
+}
+
+.image-modal-content {
+    display: block;
+    object-Fit: contain;
+    height: 100%;
+    width: 100%;
+    margin: auto,
+}
+
+.image-modal-content:hover {
+    cursor: zoom-out;
+}

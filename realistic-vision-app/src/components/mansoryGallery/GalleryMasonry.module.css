@@ -1,0 +1,13 @@
+.hoverableImage {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.hoverableImage:hover {
+    cursor: zoom-in;
+    transition: transform .2s;
+    transform: scale(1.5);
+    transform-origin: 50% 50%;
+}
