@@ -10,4 +10,5 @@
     transition: transform .2s;
     transform: scale(1.5);
     transform-origin: 50% 50%;
+    opacity: 0.3;
 }
