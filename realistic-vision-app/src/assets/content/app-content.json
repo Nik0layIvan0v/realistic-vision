@@ -4,8 +4,7 @@
     "logo": "",
     "offcanvasNavbarLabel": "Realistic-Vision",
     "navlinks": {
-      "bg": [
-        {
+      "bg": [{
           "order": 1,
           "title": "Начало",
           "link": "/"
@@ -31,8 +30,7 @@
           "link": "/contact-us"
         }
       ],
-      "en": [
-        {
+      "en": [{
           "order": 1,
           "title": "Home",
           "link": "/"
@@ -68,15 +66,13 @@
       },
       "AboutUs": {},
       "Services": {
-        "Sections": [
-          {
+        "Sections": [{
             "title": "STILL IMAGE - EN",
             "subTitle": "The traditional way",
             "isSwaped": false,
             "imageSrc": "https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg",
             "description": {
-              "paragraphs": [
-                {
+              "paragraphs": [{
                   "boldedWords": ["established", "will"],
                   "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
                 },
@@ -105,8 +101,7 @@
             "isSwaped": false,
             "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
             "description": {
-              "paragraphs": [
-                {
+              "paragraphs": [{
                   "boldedWords": ["established", "will"],
                   "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
                 },
@@ -135,8 +130,7 @@
             "isSwaped": true,
             "imageSrc": "https://images.pexels.com/photos/1478685/pexels-photo-1478685.jpeg",
             "description": {
-              "paragraphs": [
-                {
+              "paragraphs": [{
                   "boldedWords": ["established", "will"],
                   "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
                 },
@@ -165,8 +159,7 @@
             "isSwaped": false,
             "imageSrc": "https://images.pexels.com/photos/1486974/pexels-photo-1486974.jpeg",
             "description": {
-              "paragraphs": [
-                {
+              "paragraphs": [{
                   "boldedWords": ["established", "will"],
                   "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
                 },
@@ -228,10 +221,10 @@
           "submitBtnText": "SEND"
         },
         "iconLinks": {
-          "facebook": "https://www.facebook.com/bgautofun/",
-          "linkedin": "https://www.linkedin.com/",
-          "messenger": "https://www.messenger.com/?locale=bg_BG",
-          "youtube": "https://www.youtube.com/"
+          "facebook": "https://facebook.com/RealisticVision3DStudio",
+          "linkedin": "https://linkedin.com/in/Realistic-Vision",
+          "messenger": "https://m.me/RealisticVision3DStudio",
+          "youtube": "https://youtube.com/@Realistic-Vision"
         }
       },
       "Gallery": {
@@ -246,15 +239,13 @@
       },
       "AboutUs": {},
       "Services": {
-        "Sections": [
-          {
+        "Sections": [{
             "title": "STILL IMAGE - BG",
             "subTitle": "The traditional way",
             "isSwaped": false,
             "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
             "description": {
-              "paragraphs": [
-                {
+              "paragraphs": [{
                   "boldedWords": ["established", "will"],
                   "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
                 },
@@ -283,8 +274,7 @@
             "isSwaped": true,
             "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
             "description": {
-              "paragraphs": [
-                {
+              "paragraphs": [{
                   "boldedWords": ["established", "will"],
                   "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
                 },
@@ -313,8 +303,7 @@
             "isSwaped": false,
             "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
             "description": {
-              "paragraphs": [
-                {
+              "paragraphs": [{
                   "boldedWords": ["established", "will"],
                   "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
                 },
@@ -343,8 +332,7 @@
             "isSwaped": true,
             "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
             "description": {
-              "paragraphs": [
-                {
+              "paragraphs": [{
                   "boldedWords": ["established", "will"],
                   "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
                 },
@@ -406,10 +394,10 @@
           "submitBtnText": "ИЗПРАТИ"
         },
         "iconLinks": {
-          "facebook": "https://www.facebook.com/bgautofun/",
-          "linkedin": "https://www.linkedin.com/",
-          "messenger": "https://www.messenger.com/?locale=bg_BG",
-          "youtube": "https://www.youtube.com/"
+          "facebook": "https://facebook.com/RealisticVision3DStudio",
+          "linkedin": "https://linkedin.com/in/Realistic-Vision",
+          "messenger": "https://m.me/RealisticVision3DStudio",
+          "youtube": "https://youtube.com/@Realistic-Vision"
         }
       },
       "Gallery": {
