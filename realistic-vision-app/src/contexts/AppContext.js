@@ -13,6 +13,10 @@ const BG_homePageVideos = require.context('../assets/videos', true);
 const BG_galleryPage_Images = require.context('../assets/images', true);
 const BG_galleryPage_Videos = require.context('../assets/videos', true);
 
+function randomIntFromInterval(min, max) {
+	return Math.floor(Math.random() * (max - min + 1) + min);
+}
+
 export const getFileObjects = (files) => {
 	if (!files) {
 		throw new Error(`getFileObjects: files can't be null!`);
@@ -24,6 +28,7 @@ export const getFileObjects = (files) => {
 			id: index,
 			src: fileUrl,
 			title: fileUrl.split('/').pop().split('.')[0],
+			height: randomIntFromInterval(150, 650),
 		};
 	});
 
