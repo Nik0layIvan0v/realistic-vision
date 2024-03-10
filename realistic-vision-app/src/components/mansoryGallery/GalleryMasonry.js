@@ -6,6 +6,7 @@ import useMeasure from 'react-use-measure';
 import { useTransition, a } from '@react-spring/web';
 import useMedia from '../../hooks/useMedia';
 import styles from './GalleryMasonry.module.css';
+import Nav from 'react-bootstrap/Nav';
 
 function GalleyMasonry({ imageData }) {
 	const [ref, { width }] = useMeasure();
@@ -13,10 +14,16 @@ function GalleyMasonry({ imageData }) {
 	const [imageToShow, setImageToShow] = useState(null);
 	const [modalShow, setModalShow] = useState(false);
 	const [setNavShowContext] = useContext(NavContext);
+	const [imagesToShow, setImagesToShow] = useState([]);
+	const [category, setCategory] = useState(null);
 
 	const fetchImage = async () => {
 		const images = [];
 		for (const image of imageData) {
+			if (!image.src.includes('xxs')) {
+				continue;
+			}
+
 			const res = await fetch(image.src);
 			const imageBlob = await res.blob();
 			const imageObjectURL = URL.createObjectURL(imageBlob);
@@ -25,17 +32,31 @@ function GalleyMasonry({ imageData }) {
 				title: image.title,
 				src: imageObjectURL,
 				height: image.height,
+				category: image.id % 2 == 0 ? 'Exteriors' : 'Interiors',
 			});
 		}
-
 		set([...images]);
+		setImagesToShow([...images]);
 	};
 
 	const columns = useMedia(
 		['(min-width: 1500px)', '(min-width: 1000px)', '(min-width: 600px)'],
-		[4, 3, 2],
+		[3, 2, 1],
 		1
 	);
+
+	useEffect(() => {
+		if (!category) {
+			set(imagesToShow);
+			return;
+		}
+
+		const filteredImages = imagesToShow.filter(
+			(img) => img.category == category
+		);
+
+		set(filteredImages);
+	}, [category]);
 
 	const [heights, gridItems] = useMemo(() => {
 		let heights = new Array(columns).fill(0); // Each column gets a height starting with zero
@@ -105,6 +126,21 @@ function GalleyMasonry({ imageData }) {
 
 	return (
 		<div style={{ marginTop: '56px' }}>
+			<Nav as="ul">
+				<Nav.Item as="li">
+					<Nav.Link onClick={(e) => setCategory(null)}>All</Nav.Link>
+				</Nav.Item>
+				<Nav.Item as="li">
+					<Nav.Link onClick={(e) => setCategory('Exteriors')}>
+						Exteriors
+					</Nav.Link>
+				</Nav.Item>
+				<Nav.Item as="li">
+					<Nav.Link onClick={(e) => setCategory('Interiors')}>
+						Interiors
+					</Nav.Link>
+				</Nav.Item>
+			</Nav>
 			<ImageModal
 				show={modalShow}
 				onHide={() => {

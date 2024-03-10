@@ -1,38 +1,90 @@
-import { useOutletContext } from "react-router-dom";
-import office from "../assets/backgrounds/office-background.jpg";
+import { useOutletContext } from 'react-router-dom';
+import office from '../assets/backgrounds/office-background.jpg';
 
 function AboutUsPage() {
-  const [content] = useOutletContext();
-  return (
-    <div
-      className="right-half-black"
-      style={{
-        background: `url(${office}) no-repeat`,
-        backgroundSize: "cover",
-        backgroundPosition: "fill",
-        minHeight: "100vh",
-        padding: 0,
-        padding: 0,
-        margin: 0,
-        position: "relative",
-      }}
-    >
-      <h1
-        className="text-white"
-        style={{
-          position: "absolute",
-          top: "5%",
-          fontFamily: "fantasy",
-          fontSize: "35px",
-          width: "100%",
-          textAlign: "center",
-          zIndex: 1,
-        }}
-      >
-        This is about page
-      </h1>
-    </div>
-  );
+	const [content] = useOutletContext();
+	return (
+		<div
+			className="right-half-black"
+			style={{
+				background: `url(${office}) no-repeat`,
+				backgroundSize: 'cover',
+				backgroundPosition: 'fill',
+				minHeight: '100vh',
+				padding: 0,
+				padding: 0,
+				margin: 0,
+				position: 'relative',
+			}}
+		>
+			<div
+				className="text-white"
+				style={{
+					position: 'absolute',
+					top: '10%',
+					fontFamily: 'fantasy',
+					fontSize: '15px',
+					width: '100%',
+					textAlign: 'center',
+					zIndex: 1,
+				}}
+			>
+				<div className="d-flex">
+					<div className="w-50"></div>
+					<div className="w-50 text-left">
+						<p>
+							Realistic-Vision е студио за екстериорни и
+							интериорни визуализации намиращо се в град Русе
+							България.
+						</p>
+						<p>
+							Екипът ни се състои от 7 внимателно подбрани
+							дизайнера с 10-15 годишен опит в сферата на 3D
+							изображенията.
+						</p>
+						<p>
+							Владеем перфектно 6 софтуера за визуализиране, което
+							ни дава възможност да избираме, кой от тах да
+							използваме в конкретна ситуация.
+						</p>
+						<p>
+							Основното ни предимство е, че непрекъснато
+							обновяваме нашите познания за най-новите технологии
+							в сферата на Ai – изкуствения интелект и успешно ги
+							интегрираме в работата си.
+						</p>
+						<p>
+							Този начин на работа ни дава възможност да сме
+							по-ефективни, оптимизирали сме процеса между 5-10
+							пъти с по-компактен колектив успяваме да предложим
+							невиждан досега реализъм за наи-кратко време, на
+							по-добра цена!
+						</p>
+						<p>
+							Прекрасно знаем, че за да осъществите продажба
+							вашите клиенти трябва да почувстат магията , която
+							да ги грабне и да ги подтикне към следващата крачка,
+							а имено да закупят своето жилище!
+						</p>
+						<p>
+							Нашата основна цел е да ви предоставим най-високо
+							ниво на услугата за да имате възжможност да
+							пренесете бизнесът си на следващото ниво, да
+							грабнете интереса на клиентите си още в първия
+							момент, в който ви забележат да спечелите по-голямо
+							доверие в тях, което веднага ще доведе до повече и
+							по-бързи продажби на по-висока продажна цена.
+						</p>
+						<p>
+							Ние притежаваме перфектните съставки за вашия успех,
+							не просто продавайте а направете сензация от вашия
+							имот!
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	);
 }
 
 export default AboutUsPage;
