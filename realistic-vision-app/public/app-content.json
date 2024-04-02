@@ -1,0 +1,453 @@
+{
+  "app": {
+    "title": "Realistic-Vision",
+    "logo": "",
+    "offcanvasNavbarLabel": "Realistic-Vision",
+    "navlinks": {
+      "bg": [{
+          "order": 1,
+          "title": "Начало",
+          "link": "/"
+        },
+        {
+          "order": 2,
+          "title": "Галерия",
+          "link": "/our-gallery"
+        },
+        {
+          "order": 3,
+          "title": "Услуги",
+          "link": "/our-services"
+        },
+        {
+          "order": 4,
+          "title": "За Нас",
+          "link": "/about-us"
+        },
+        {
+          "order": 5,
+          "title": "Контакти",
+          "link": "/contact-us"
+        }
+      ],
+      "en": [{
+          "order": 1,
+          "title": "Home",
+          "link": "/"
+        },
+        {
+          "order": 2,
+          "title": "Gallery",
+          "link": "/our-gallery"
+        },
+        {
+          "order": 3,
+          "title": "Services",
+          "link": "/our-services"
+        },
+        {
+          "order": 4,
+          "title": "About",
+          "link": "/about-us"
+        },
+        {
+          "order": 5,
+          "title": "Contact",
+          "link": "/contact-us"
+        }
+      ]
+    }
+  },
+  "pages": {
+    "en": {
+      "Home": {
+        "images": [{}],
+        "videos": [{}]
+      },
+      "AboutUs": {},
+      "Services": {
+        "Sections": [{
+          "title": "TODO: Add sections and texts",
+          "subTitle": "The traditional way",
+          "isSwaped": false,
+          "imageSrc": "https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg",
+          "description": {
+            "paragraphs": [{
+                "boldedWords": ["established", "will"],
+                "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+              },
+              {
+                "boldedWords": ["lorem", "ipsum"],
+                "text": "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'."
+              },
+              {
+                "boldedWords": ["lorem", "ipsum"],
+                "text": "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+              },
+              {
+                "boldedWords": ["lorem", "ipsum"],
+                "text": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+              },
+              {
+                "boldedWords": ["lorem", "ipsum"],
+                "text": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham."
+              }
+            ]
+          }
+        }]
+      },
+      "Contacts": {
+        "location": {
+          "title": "OFFICE LOCATION",
+          "address": "TODO: Add Address",
+          "email": "example@realistic-vision.com",
+          "phoneNumber": "+3590000000"
+        },
+        "workingHours": {
+          "title": "OPENING HOURS",
+          "hoursList": [
+            "Mon - Fri: Xam - Xpm",
+            "Saturday: Xam - Xpm",
+            "Sunday: Xam - Xpm"
+          ]
+        },
+        "form": {
+          "action": "mailto:admin@realistic-vision.com?subject=%SUBJECT%&body=%BODY%",
+          "title": "FIND US",
+          "nameField": {
+            "label": "Name",
+            "placeholder": "Enter name here..."
+          },
+          "emailField": {
+            "label": "Email*",
+            "placeholder": "Enter email here..."
+          },
+          "subjectField": {
+            "label": "Subject*",
+            "placeholder": "Enter subject here..."
+          },
+          "bodyField": {
+            "label": "Message*",
+            "placeholder": "Enter message here..."
+          },
+          "submitBtnText": "SEND"
+        },
+        "iconLinks": {
+          "facebook": "https://facebook.com/RealisticVision3DStudio",
+          "linkedin": "https://linkedin.com/in/Realistic-Vision",
+          "messenger": "https://m.me/RealisticVision3DStudio",
+          "youtube": "https://youtube.com/@Realistic-Vision"
+        }
+      },
+      "Gallery": {
+        "buttons": [{
+            "name": "All",
+            "eventKey": "none"
+          },
+          {
+            "name": "Exteriors",
+            "eventKey": "Exteriors"
+          },
+          {
+            "name": "Interiors",
+            "eventKey": "Interiors"
+          }
+        ],
+        "images": [{}],
+        "videos": [{}]
+      }
+    },
+    "bg": {
+      "Home": {
+        "images": [{}],
+        "videos": [{}]
+      },
+      "AboutUs": {
+        "Sections": [{
+          "title": "",
+          "subTitle": "",
+          "paragraphs": [{
+              "boldedWords": [],
+              "text": "Realistic-Vision е студио за екстериорни и интериорни визуализации намиращо се в град Русе България."
+            },
+            {
+              "boldedWords": [],
+              "text": "Екипът ни се състои от 7 внимателно подбрани дизайнера с 10-15 годишен опит в сферата на 3D изображенията."
+            },
+            {
+              "boldedWords": [],
+              "text": "Владеем перфектно 6 софтуера за визуализиране, което ни дава възможност да избираме, кой от тах да използваме в конкретна ситуация."
+            },
+            {
+              "boldedWords": [],
+              "text": "Основното ни предимство е, че непрекъснато обновяваме нашите познания за най-новите технологии в сферата на Ai – изкуствения интелект и успешно ги интегрираме в работата си."
+            },
+            {
+              "boldedWords": [],
+              "text": "Този начин на работа ни дава възможност да сме по-ефективни, оптимизирали сме процеса между 5-10 пъти с по-компактен колектив успяваме да предложим невиждан досега реализъм за наи-кратко време, на по-добра цена!"
+            },
+            {
+              "boldedWords": [],
+              "text": "Прекрасно знаем, че за да осъществите продажба вашите клиенти трябва да почувстат магията , която да ги грабне и да ги подтикне към следващата крачка, а имено да закупят своето жилище!"
+            },
+            {
+              "boldedWords": [],
+              "text": "Нашата основна цел е да ви предоставим най-високо ниво на услугата за да имате възжможност да пренесете бизнесът си на следващото ниво, да грабнете интереса на клиентите си още в първия момент, в който ви забележат да спечелите по-голямо доверие в тях, което веднага ще доведе до повече и по-бързи продажби на по-висока продажна цена."
+            },
+            {
+              "boldedWords": [],
+              "text": "Ние притежаваме перфектните съставки за вашия успех, не просто продавайте а направете сензация от вашия имот!"
+            }
+          ]
+        }]
+      },
+      "Services": {
+        "Sections": [{
+            "title": "Етажен план",
+            "subTitle": "",
+            "isSwaped": false,
+            "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
+            "description": {
+              "paragraphs": [{
+                  "boldedWords": [],
+                  "text": "Статично изображение с включени 2 корекции."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "Цената се определя от броя стаи."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "Необходимо е да ни предоставите план на етажа и ако е нужно насоки за (подове,стени, врати прозорци, мебели, аксесоари)."
+                }
+              ]
+            }
+          },
+          {
+            "title": "Интериорен рендер",
+            "subTitle": "",
+            "isSwaped": true,
+            "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
+            "description": {
+              "paragraphs": [{
+                  "boldedWords": [],
+                  "text": "Статично изображение с включени 2 корекции."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "Цената за изображение е твърда. Изключение има само ако е нужно да се създаде мека мебел."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "Необходимо е да ни предоставите план на помещението или чертеж направен от вас с всички нужни размери както и цялостна информация за дизайна (подове, стени, врати прозорци, мебели и аксесоари)."
+                }
+              ]
+            }
+          },
+          {
+            "title": "Екстериорен рендер",
+            "subTitle": "",
+            "isSwaped": false,
+            "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
+            "description": {
+              "paragraphs": [{
+                  "boldedWords": [],
+                  "text": "Статично изображение с включени 2 корекции."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "Даваме цена за изграждане на сградата спрямо сложността. След това цената на всяко изображение е твърда."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "Необходимо е да ни предоставите местоположение къде се намира обекта, план на сградата с описание на фасади, покрив, врати, прозорци, растителност. Препоръчително е да ни предоставите снимков материал."
+                }
+              ]
+            }
+          },
+          {
+            "title": "Въздушен рендер (дрон кадър)",
+            "subTitle": "",
+            "isSwaped": true,
+            "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
+            "description": {
+              "paragraphs": [{
+                  "boldedWords": [],
+                  "text": "Статично изображение с включени 2 корекции."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "Изцяло моделирана 3D среда или комбинация от реална снимка слята с 3D модел."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "Даваме цена за изграждане на сгради спрямо сложността. След това цената на всяко изображение е твърда."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "Необходимо е да ни предоставите местоположение къде се намира обекта, план на сградата с описание на фасади, покриви, врати, прозорци, растителност. Препоръчително е да ни предоставите снимков материал. За максимален реализъм и най-добър ефект, ако изберете опция сливане на реални кадри с 3D модел на сградата, но нямате възможност да осигурите снимки от дрон можем да заснемем лично с наш дрон или ви осигуряваме екип."
+                }
+              ]
+            }
+          },
+          {
+            "title": "Анимация",
+            "subTitle": "",
+            "isSwaped": false,
+            "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
+            "description": {
+              "paragraphs": [{
+                  "boldedWords": [],
+                  "text": "Анимация с включени 2 корекции."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "Изцяло изработена 3D среда или комбинация от реални кадри сляти с 3D модел."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "Даваме цена за изграждане на сгради спрямо сложността. След това цената се определя на секунда."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "Необходимо е да ни предоставите местоположение къде се намира обекта, план на сградата с описание на фасади, покриви, врати, прозорци, растителност. За максимален реализъм и най-добър ефект, ако изберете опция сливане на реални кадри с 3D модел на сградата, заснемаме лично с наш дрон или ви осигуряваме екип с нужната техника. "
+                }
+              ]
+            }
+          },
+          {
+            "title": "Виртуална обиколка",
+            "subTitle": "",
+            "isSwaped": true,
+            "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
+            "description": {
+              "paragraphs": [{
+                  "boldedWords": [],
+                  "text": "Получавате възможност да се разходите и да огледате всичко в детайли, да почувствате уюта на бъдещия ви дом!"
+                },
+                {
+                  "boldedWords": [],
+                  "text": "Сдобивате се с персонален линк, чрез който всички ваши клиенти могат да се разходят."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "Цената се калкулира на базата на всички изисквания по проекта."
+                }
+              ]
+            }
+          },
+          {
+            "title": "Интериор – Реновиране",
+            "subTitle": "",
+            "isSwaped": false,
+            "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
+            "description": {
+              "paragraphs": [{
+                  "boldedWords": [],
+                  "text": "Статично изображение с хипотетичен дизайн без включени корекции."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "Цената за изображение е твърда."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "Необходимо е да ни предоставите снимка на помещението, план на стаята или чертеж направен от вас с всички нужни размери и до 5 изисквания под, стени, прозорци, вид мебели(диван, секция, маса, кухня... и т.н.), големи аксесоари (килим, лампион, полилей, растение, радиатор). Тази услуга предлага хипотетичен интериор и тук не става въпрос за специфични изисквания. "
+                },
+                {
+                  "boldedWords": [],
+                  "text": "ИЗИСКВАНЕ ЗА СНИМКА"
+                }
+              ]
+            }
+          },
+          {
+            "title": "Екстериор – Реновиране",
+            "subTitle": "",
+            "isSwaped": true,
+            "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
+            "description": {
+              "paragraphs": [{
+                  "boldedWords": [],
+                  "text": "Статично изображение с хипотетичен дизайн без включени корекции."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "Цената за изображение е твърда."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "Необходимо е да ни предоставите снимка на сградата също и до 5 изисквания материали, цветове промяна в стълбища, врати, прозорци, гараж. Ако имате възможност изпратете ни и план на сградата или чертеж направен от вас с всички нужни размери. "
+                },
+                {
+                  "boldedWords": [],
+                  "text": "ИЗИСКВАНЕ ЗА СНИМКА"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "Contacts": {
+        "location": {
+          "title": "Намерете ни",
+          "address": "гр. Русе, кв. Център 1",
+          "email": "example@realistic-vision.com",
+          "phoneNumber": "+3590000000"
+        },
+        "workingHours": {
+          "title": "Работно време",
+          "hoursList": [
+            "Понеделник - Петък: Xam - Xpm",
+            "Събота: Xam - Xpm",
+            "Неделя: Xam - Xpm"
+          ]
+        },
+        "form": {
+          "action": "mailto:admin@realistic-vision.com?subject=%SUBJECT%&body=%BODY%",
+          "title": "ПИШЕТЕ НИ",
+          "nameField": {
+            "label": "Име",
+            "placeholder": "Напишете името си тук..."
+          },
+          "emailField": {
+            "label": "Имейл*",
+            "placeholder": "Напишете имейл адреса си тук..."
+          },
+          "subjectField": {
+            "label": "Тема*",
+            "placeholder": "Напишете тема на разговора тук..."
+          },
+          "bodyField": {
+            "label": "Съобщение*",
+            "placeholder": "Напишете съобщението си тук..."
+          },
+          "submitBtnText": "ИЗПРАТИ"
+        },
+        "iconLinks": {
+          "facebook": "https://facebook.com/RealisticVision3DStudio",
+          "linkedin": "https://linkedin.com/in/Realistic-Vision",
+          "messenger": "https://m.me/RealisticVision3DStudio",
+          "youtube": "https://youtube.com/@Realistic-Vision"
+        }
+      },
+      "Gallery": {
+        "buttons": [{
+            "name": "Всички",
+            "eventKey": "none"
+          },
+          {
+            "name": "Екстериорни",
+            "eventKey": "Exteriors"
+          },
+          {
+            "name": "Интериорни",
+            "eventKey": "Interiors"
+          }
+        ],
+        "images": [{}],
+        "videos": [{}]
+      }
+    }
+  }
+}

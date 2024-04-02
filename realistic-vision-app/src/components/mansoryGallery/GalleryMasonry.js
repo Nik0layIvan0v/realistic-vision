@@ -19,7 +19,7 @@ function GalleyMasonry({ imageData }) {
 
 	const fetchImage = async () => {
 		const images = [];
-		for (const image of imageData) {
+		for (const image of imageData?.images ?? []) {
 			if (!image.src.includes('xxs')) {
 				continue;
 			}
@@ -98,7 +98,7 @@ function GalleyMasonry({ imageData }) {
 	});
 
 	const controlNavbar = () => {
-		if (window.scrollY >= 36) {
+		if (window.scrollY >= 18) {
 			return setNavShowContext(false);
 		}
 
@@ -120,27 +120,8 @@ function GalleyMasonry({ imageData }) {
 		};
 	}, []);
 
-	if (items.length == 0) {
-		return <Loader />;
-	}
-
 	return (
-		<div style={{ marginTop: '56px' }}>
-			<Nav as="ul">
-				<Nav.Item as="li">
-					<Nav.Link onClick={(e) => setCategory(null)}>All</Nav.Link>
-				</Nav.Item>
-				<Nav.Item as="li">
-					<Nav.Link onClick={(e) => setCategory('Exteriors')}>
-						Exteriors
-					</Nav.Link>
-				</Nav.Item>
-				<Nav.Item as="li">
-					<Nav.Link onClick={(e) => setCategory('Interiors')}>
-						Interiors
-					</Nav.Link>
-				</Nav.Item>
-			</Nav>
+		<>
 			<ImageModal
 				show={modalShow}
 				onHide={() => {
@@ -149,27 +130,54 @@ function GalleyMasonry({ imageData }) {
 				}}
 				img={imageToShow}
 			/>
-
-			<div
-				ref={ref}
-				className={styles.list}
-				style={{ height: Math.max(...heights) }}
-			>
-				{transitions((style, image) => (
-					<a.div style={style}>
-						<div>
-							<img
-								src={image.src}
-								key={image.id}
-								alt={`mansory ${image.id}`}
-								className={styles['hoverableImage']}
-								onClick={() => zoomImage(image)}
-							/>
-						</div>
-					</a.div>
-				))}
+			<div style={{ marginTop: '56px' }}>
+				<Nav
+					as="ul"
+					variant="underline"
+					className="justify-content-center mb-3"
+					defaultActiveKey="none"
+					onSelect={(selectedKey) =>
+						setCategory(selectedKey == 'none' ? null : selectedKey)
+					}
+				>
+					{imageData?.buttons.map((button, index) => {
+						return (
+							<Nav.Item key={index} as="li">
+								<Nav.Link
+									eventKey={button.eventKey}
+									className="text-white p-0"
+								>
+									{button.name}
+								</Nav.Link>
+							</Nav.Item>
+						);
+					})}
+				</Nav>
+				{imagesToShow ? (
+					<div
+						ref={ref}
+						className={styles.list}
+						style={{ height: '100vh' }}
+					>
+						{transitions((style, image) => (
+							<a.div style={style}>
+								<div>
+									<img
+										src={image.src}
+										key={image.id}
+										alt={`mansory ${image.id}`}
+										className={styles['hoverableImage']}
+										onClick={() => zoomImage(image)}
+									/>
+								</div>
+							</a.div>
+						))}
+					</div>
+				) : (
+					<Loader />
+				)}
 			</div>
-		</div>
+		</>
 	);
 }
 

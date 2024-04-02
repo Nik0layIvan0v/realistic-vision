@@ -6,7 +6,7 @@ function ServiceInfo({
 	description,
 	imageSrc,
 	isSwaped,
-	marginTop = '60px',
+	marginTop = '56px',
 	className,
 }) {
 	const LeftSide = (
