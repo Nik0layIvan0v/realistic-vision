@@ -1,24 +1,28 @@
 import sample from '../assets/videos/file_example_720p.mp4';
 import forestSample from '../assets/videos/file_sample_forest.mp4';
 import VideoContainer from '../components/containers/video/VideoContainer';
-import { createRef } from 'react';
+import { useRef } from 'react';
 import ScrollToTopButton from '../components/footer/ScrollToTopButton';
 import styles from './Homepage.module.css';
 import ScrollToSectionButton from '../components/footer/ScrollToSection';
 import Section from '../components/containers/section/Section';
 import ImageContainer from '../components/containers/Image/ImageContainer';
 import CarouselSection from '../components/containers/carousels/CarouselSection';
+import IconLinks from '../components/IconLinks/IconLinks';
+import { useState } from 'react';
 
 function HomePage() {
-	const sectionOneRef = createRef();
-	const sectionTwoRef = createRef();
-	const sectionThreeRef = createRef();
-	const sectionFourRef = createRef();
+	const sectionOneRef = useRef();
+	const sectionTwoRef = useRef();
+	const sectionThreeRef = useRef();
+	const sectionFourRef = useRef();
+	const sectionFiveRef = useRef();
+	const [menuColor, setMenuColor] = useState('white');
 
 	const components = [
 		<ImageContainer src="https://vivid-vision.net/wp-content/uploads/2023/04/22075_sothebys3.jpg" />,
-		<div className="d-flex justify-content-center align-content-center">
-			<h1>Second Slide</h1>
+		<div className="d-flex justify-content-center align-content-center align-items-center h-100">
+			<h1 className="text-white">Second Slide</h1>
 		</div>,
 		<ImageContainer src="https://vivid-vision.net/wp-content/uploads/2023/04/22075_sothebys3.jpg" />,
 	];
@@ -33,6 +37,8 @@ function HomePage() {
 				<ScrollToSectionButton
 					sectionRef={sectionTwoRef}
 					color="white"
+					menuColor={menuColor}
+					setMenuColor={setMenuColor}
 				/>
 			</Section>
 			<Section ref={sectionTwoRef} backgroundColor="dark">
@@ -40,22 +46,48 @@ function HomePage() {
 				<ScrollToSectionButton
 					sectionRef={sectionThreeRef}
 					color="white"
+					menuColor={menuColor}
+					setMenuColor={setMenuColor}
 				/>
 			</Section>
 			<Section ref={sectionThreeRef} backgroundColor="dark">
-				<ImageContainer src="https://thechive.com/wp-content/uploads/2019/12/person-hilariously-photoshops-animals-onto-random-things-xx-photos-25.jpg" />
+				<CarouselSection
+					components={components}
+					defaultActiveIndex={1}
+				/>
 				<ScrollToSectionButton
 					sectionRef={sectionFourRef}
-					color="dark"
+					color="black"
+					menuColor={menuColor}
+					setMenuColor={setMenuColor}
 				/>
 			</Section>
 			<Section ref={sectionFourRef} backgroundColor="dark">
+				<ImageContainer src="https://thechive.com/wp-content/uploads/2019/12/person-hilariously-photoshops-animals-onto-random-things-xx-photos-25.jpg" />
+				<ScrollToSectionButton
+					sectionRef={sectionFiveRef}
+					color="white"
+					menuColor={menuColor}
+					setMenuColor={setMenuColor}
+				/>
+			</Section>
+			<Section
+				ref={sectionFiveRef}
+				backgroundColor="dark"
+				setMenuColor={setMenuColor}
+			>
 				<VideoContainer
 					source={forestSample}
 					className={'w-100 h-100'}
 				/>
-				<ScrollToTopButton sectionRef={sectionOneRef} color="white" />
+				<ScrollToTopButton
+					sectionRef={sectionOneRef}
+					color="white"
+					menuColor={menuColor}
+					setMenuColor={setMenuColor}
+				/>
 			</Section>
+			<IconLinks iconsColor={menuColor}></IconLinks>
 		</div>
 	);
 }

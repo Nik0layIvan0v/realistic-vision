@@ -4,8 +4,8 @@ import React from 'react';
 import styles from './ScrollStyles.module.css';
 
 const ScrollToSectionButton = React.forwardRef((props, ref) => {
-	const scrollToIntoViewHandler = (ref) => {
-		console.log(ref, props);
+	const scrollToIntoViewHandler = (ref, props) => {
+		props.setMenuColor(props.color);
 		ref.current?.scrollIntoView({
 			behavior: 'smooth',
 			block: 'start',
@@ -16,7 +16,7 @@ const ScrollToSectionButton = React.forwardRef((props, ref) => {
 		<div
 			className={styles['animatedArrow']}
 			ref={ref}
-			onClick={() => scrollToIntoViewHandler(props.sectionRef)}
+			onClick={() => scrollToIntoViewHandler(props.sectionRef, props)}
 		>
 			{props.children ?? (
 				<div style={{ position: 'relative' }}>
@@ -24,7 +24,7 @@ const ScrollToSectionButton = React.forwardRef((props, ref) => {
 						icon={faChevronDown}
 						className={styles['animationUpAndDown']}
 						size="xl"
-						color={props.color ?? 'black'}
+						color={props.menuColor ?? 'black'}
 					/>
 				</div>
 			)}
