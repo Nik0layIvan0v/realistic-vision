@@ -1,39 +1,45 @@
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import "swiper/css/scrollbar";
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
-import { Swiper, SwiperSlide } from "swiper/react";
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+import styles from './CarouselSection.css';
+
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 function CarouselSection({ components = [], defaultActiveIndex = 0 }) {
-  const handleSlideChange = (swiper) => {
-    //console.log(swiper);
-  };
+	const pagination = {
+		clickable: true,
+		el: '.swiper-custom-pagination',
+		renderBullet: function (index, className) {
+			return (
+				'<span class="' +
+				'swiper-pagination-bullet swiper-pagination-bullet-active' +
+				'"> </span>'
+			);
+		},
+	};
 
-  const handleonActiveIndexChange = (swipper) => {
-    // TODO: Make left and right arrows not visible when slide reach start or end
-    // console.log(swipper.navigation);
-    // console.log(swipper.activeIndex);
-  };
-
-  return (
-    <Swiper
-      style={{ width: "100vw", height: "100vh" }}
-      modules={[Navigation, Pagination, Scrollbar, A11y]}
-      spaceBetween={0}
-      slidesPerView={1}
-      onActiveIndexChange={handleonActiveIndexChange}
-      navigation
-      scrollbar={{ draggable: true }}
-      onSlideChange={handleSlideChange}
-    >
-      {components.map((component, index) => (
-        <SwiperSlide style={{ width: "100vw", height: "100vh" }} key={index}>
-          {component}
-        </SwiperSlide>
-      ))}
-    </Swiper>
-  );
+	return (
+		<Swiper
+			style={{ width: '100vw', height: '100vh' }}
+			modules={[Navigation, Pagination, Scrollbar, A11y]}
+			spaceBetween={0}
+			slidesPerView={1}
+			pagination={pagination}
+			className="mySwiper"
+		>
+			{components.map((component, index) => (
+				<SwiperSlide
+					style={{ width: '100vw', height: '100vh' }}
+					key={index}
+				>
+					{component}
+				</SwiperSlide>
+			))}
+			<div className="swiper-custom-pagination" />
+		</Swiper>
+	);
 }
 
 export default CarouselSection;
