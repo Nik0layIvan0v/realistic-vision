@@ -25,17 +25,17 @@ function IconLinks({ iconsColor = 'white' }) {
 			}}
 		>
 			<div className="col-12 text-center d-flex flex-column justify-content-between h-100">
-				<Link to="/contact-us">
+			<Link to={iconLinksSection?.messenger}>
 					<FontAwesomeIcon
 						size="2x"
-						icon={faEnvelope}
+						icon={faFacebookMessenger}
 						color={iconsColor}
 					/>
 				</Link>
-				<Link to={iconLinksSection?.facebook}>
+								<Link to="/contact-us">
 					<FontAwesomeIcon
 						size="2x"
-						icon={faFacebook}
+						icon={faEnvelope}
 						color={iconsColor}
 					/>
 				</Link>
@@ -46,14 +46,14 @@ function IconLinks({ iconsColor = 'white' }) {
 						color={iconsColor}
 					/>
 				</Link>
-				<Link to={iconLinksSection?.messenger}>
+				<Link to={iconLinksSection?.facebook}>
 					<FontAwesomeIcon
 						size="2x"
-						icon={faFacebookMessenger}
+						icon={faFacebook}
 						color={iconsColor}
 					/>
 				</Link>
-				<Link to={iconLinksSection?.youtube}>
+                <Link to={iconLinksSection?.youtube}>
 					<FontAwesomeIcon
 						size="2x"
 						icon={faYoutube}

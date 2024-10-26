@@ -35,3 +35,16 @@ code {
   src: local('franklin-gothic-demi-regular'),
     url('./assets/fonts/franklin-gothic-demi-regular.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: 'CORBEL';
+  src: local('CORBEL'),
+    url('./assets/fonts/CORBEL.TTF') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'calibri';
+  src: local('calibri-regular'),
+    url('./assets/fonts/calibri-regular.ttf') format('truetype');
+}

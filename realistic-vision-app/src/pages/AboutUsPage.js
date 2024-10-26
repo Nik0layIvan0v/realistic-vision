@@ -24,8 +24,8 @@ function AboutUsPage() {
 				style={{
 					position: 'absolute',
 					top: '10%',
-					fontFamily: 'fantasy',
-					fontSize: '15px',
+					fontFamily: 'calibri',
+					fontSize: '18px',
 					width: '100%',
 					textAlign: 'center',
 					zIndex: 1,

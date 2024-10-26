@@ -6,11 +6,7 @@
   right: 0;
   bottom: 0;
   width: 100%;
-  background: linear-gradient(to left,
-      transparent 0%,
-      black 50%,
-      black 60%,
-      black 90%);
+ 
 }
 
 .right-half-black:after {

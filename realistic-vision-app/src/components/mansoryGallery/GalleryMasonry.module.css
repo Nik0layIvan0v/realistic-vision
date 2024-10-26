@@ -7,10 +7,10 @@
 
 .hoverableImage:hover {
     cursor: zoom-in;
-    transition: transform .2s;
-    transform: scale(1.5);
+    transition: transform .50s;
+    transform: scale(1.05);
     transform-origin: 50% 50%;
-    opacity: 0.3;
+    opacity: 0.7;
 }
 
 .list {
@@ -22,7 +22,7 @@
 .list>div {
     position: absolute;
     will-change: transform, width, height, opacity;
-    padding: 0.3px;
+    padding: 0.2px;
 }
 
 .list>div>div {

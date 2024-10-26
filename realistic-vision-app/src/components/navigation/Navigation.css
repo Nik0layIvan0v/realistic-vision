@@ -13,23 +13,23 @@
 }
 
 .nav-link {
-  font-family: 'Franklin Gothic Demi sans-serif';
+  font-family: 'CORBEL';
   font-size: x-large;
   font-weight: lighter;
   text-transform: capitalize;
-  color: whitesmoke;
+  color: rgb(199, 199, 199);
 }
 
 .nav-link:hover {
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .nav-link:active {
-  color: black;
+  color: #fff;
 }
 
 @media only screen and (max-width: 991px) {
   .nav-link {
-    color: black;
+    color: rgb(255, 255, 255);
   }
 }
