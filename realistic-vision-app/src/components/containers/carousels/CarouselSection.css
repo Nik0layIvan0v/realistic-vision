@@ -17,8 +17,10 @@
     line-height: 20px;
     font-size: 12px;
     color: #000;
+    padding: 1px;
     opacity: 1;
     background: rgba(0, 0, 0, 0.2);
+    border: #dee6ee 1px solid;
 }
 
 .swiper-pagination-bullet-active {

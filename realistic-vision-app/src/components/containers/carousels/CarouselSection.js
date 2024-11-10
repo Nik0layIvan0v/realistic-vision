@@ -4,7 +4,13 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import styles from './CarouselSection.css';
 
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import {
+	Navigation,
+	Pagination,
+	Scrollbar,
+	A11y,
+	Keyboard,
+} from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 function CarouselSection({ components = [], defaultActiveIndex = 0 }) {
@@ -23,9 +29,10 @@ function CarouselSection({ components = [], defaultActiveIndex = 0 }) {
 	return (
 		<Swiper
 			style={{ width: '100vw', height: '100vh' }}
-			modules={[Navigation, Pagination, Scrollbar, A11y]}
+			modules={[Navigation, Pagination, A11y, Keyboard, Scrollbar]}
 			spaceBetween={0}
 			slidesPerView={1}
+			keyboard={true}
 			pagination={pagination}
 			className="mySwiper"
 		>
