@@ -9,27 +9,44 @@
 
 .nav-title {
   font-family: 'Baskerville Old Face';
-  font-size: x-large;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 32px;
+  vertical-align: "center";
+  mix-blend-mode: difference;
 }
 
 .nav-link {
+  font-size: 24px;
+  color: white;
+  mix-blend-mode: difference;
   font-family: 'CORBEL';
-  font-size: x-large;
-  font-weight: lighter;
-  text-transform: capitalize;
-  color: rgb(199, 199, 199);
 }
 
+/* unvisited link */
+.nav-link:link {
+  color: rgb(255, 255, 255);
+}
+
+/* visited link */
+.nav-link:visited {
+  color: rgb(255, 255, 255);
+}
+
+/* mouse over link */
 .nav-link:hover {
   color: rgb(255, 255, 255);
 }
 
+/* selected link */
 .nav-link:active {
-  color: #fff;
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
 }
 
-@media only screen and (max-width: 991px) {
-  .nav-link {
-    color: rgb(255, 255, 255);
+@media (min-width: 768px) {
+  .nav-title {
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 }

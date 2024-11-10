@@ -26,34 +26,38 @@ function Navigation({
 		<Collapse in={navLinksHide}>
 			<Navbar
 				className="m-0 pl-4 pr-4 pt-1 mb-1 w-100 ml-3"
-				height={'36px'}
+				height={'48px'}
 				expand={expand}
 				fixed={'top'}
 				aria-expanded={navLinksHide}
 			>
 				<Container fluid>
-					<Navbar.Brand>
-						<Link className="nav-link" to={`/`}>
-							{logo ? (
-								<img
-									alt="realistic vision logo"
-									src={logo}
-									width="30"
-									height="30"
-									className="d-inline-block align-top mr-3"
-								/>
-							) : null}
-							<p
-								className="d-inline h3 nav-title text-light"
-								style={{
-									fontSize: '32px',
-									textShadow: '1px 1px 1px 1px black',
-								}}
-							>
-								{title}
-							</p>
-						</Link>
-					</Navbar.Brand>
+					<Link
+						className="nav-title"
+						onClick={() => {
+							navlinks.map(
+								(navlink) => (navlink.isActive = false)
+							);
+							let navlink = navlinks.find(
+								(navlink) => (navlink.link = '/')
+							);
+
+							navlink.isActive = true;
+						}}
+						to={`/`}
+					>
+						{/* <div className="d-inline">
+								{logo ? (
+									<img
+										alt="realistic vision logo"
+										src={logo}
+										width="32"
+										height="32"
+									/>
+								) : null}
+							</div> */}
+						{title}
+					</Link>
 					<Navbar.Toggle
 						onClick={() => setShowOffcanvas(true)}
 						aria-controls={`offcanvasNavbar-expand-${expand} basic-navbar-nav rounded border border-0`}
@@ -62,7 +66,6 @@ function Navigation({
 							icon={faBars}
 							color="white"
 							size="xl"
-							style={{ filter: 'drop-shadow(0 0 1rem black)' }}
 						/>
 					</Navbar.Toggle>
 					<Navbar.Offcanvas
@@ -74,35 +77,34 @@ function Navigation({
 						onHide={() => setShowOffcanvas(false)}
 					>
 						<Offcanvas.Header closeButton>
-							<Offcanvas.Title
-								id={`offcanvasNavbarLabel-expand-${expand}`}
-							>
-								<p className="d-inline h5 nav-title">
-									{offcanvasNavbarLabel}
-								</p>
-							</Offcanvas.Title>
+							<div className="nav-title">
+								{offcanvasNavbarLabel}
+							</div>
 						</Offcanvas.Header>
 						<Offcanvas.Body>
 							<Nav className="justify-content-end flex-grow-1 pe-3 align-items-center">
 								{navlinks.map((navLink, index) => (
 									<Link
 										key={index}
-										className="nav-link display-1 btn"
-										style={{
-											fontSize: '21px',
-											textShadow: '1px 1px 1px black',
-										}}
+										className={`nav-link ${
+											navLink.isActive ? 'fw-bold' : ''
+										}`}
 										to={navLink.link}
 										onClick={(event) => {
 											event.preventDefault();
 											navigate(navLink.link);
 											setShowOffcanvas(false);
+											navlinks.map(
+												(navlink) =>
+													(navlink.isActive = false)
+											);
+											navLink.isActive = true;
 										}}
 									>
 										{navLink.title}
 									</Link>
 								))}
-								<div className="nav-link d-flex">
+								<div className="d-flex">
 									<img
 										onClick={(event) => {
 											event.preventDefault();
