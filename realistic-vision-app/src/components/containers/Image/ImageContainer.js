@@ -1,13 +1,8 @@
 import Image from 'react-bootstrap/Image';
+import './ImageContainer.css';
 
 function ImageContainer({ src }) {
-	return (
-		<Image
-			style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-			src={src}
-			alt="full width"
-		/>
-	);
+	return <Image className="image-container" src={src} alt={src} />;
 }
 
 export default ImageContainer;

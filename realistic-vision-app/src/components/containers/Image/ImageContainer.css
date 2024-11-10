@@ -1,0 +1,46 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .image-container {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 50% 50%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .image-container {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .image-container {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .image-container {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 2160px) {
+    .image-container {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        image-rendering: optimizeQuality;
+    }
+}
