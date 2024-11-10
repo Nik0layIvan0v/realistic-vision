@@ -7,53 +7,63 @@
       "bg": [{
           "order": 1,
           "title": "Начало",
-          "link": "/"
+          "link": "/",
+          "isActive": false
         },
         {
           "order": 2,
           "title": "Галерия",
-          "link": "/our-gallery"
+          "link": "/our-gallery",
+          "isActive": false
         },
         {
           "order": 3,
           "title": "Услуги",
-          "link": "/our-services"
+          "link": "/our-services",
+          "isActive": false
         },
         {
           "order": 4,
           "title": "За Нас",
-          "link": "/about-us"
+          "link": "/about-us",
+          "isActive": false
         },
         {
           "order": 5,
           "title": "Контакти",
-          "link": "/contact-us"
+          "link": "/contact-us",
+          "isActive": false
         }
       ],
       "en": [{
           "order": 1,
           "title": "Home",
-          "link": "/"
+          "link": "/",
+          "isActive": false
         },
         {
           "order": 2,
           "title": "Gallery",
-          "link": "/our-gallery"
+          "link": "/our-gallery",
+          "isActive": false
         },
         {
           "order": 3,
           "title": "Services",
-          "link": "/our-services"
+          "link": "/our-services",
+          "isActive": false
         },
         {
           "order": 4,
           "title": "About",
-          "link": "/about-us"
+          "link": "/about-us",
+          "isActive": false
         },
         {
           "order": 5,
           "title": "Contact",
-          "link": "/contact-us"
+          "link": "/contact-us",
+          "isActive": false
         }
       ]
     }
