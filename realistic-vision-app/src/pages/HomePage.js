@@ -20,11 +20,11 @@ function HomePage() {
 	const [menuColor, setMenuColor] = useState('white');
 
 	const components = [
-		<ImageContainer src="https://vivid-vision.net/wp-content/uploads/2023/04/22075_sothebys3.jpg" />,
+		<ImageContainer src="./static/media/xxs-1_Livingroom_1_BIG_PNG_F.9964b8593226c07a60e6.jpg" />,
 		<div className="d-flex justify-content-center align-content-center align-items-center h-100">
 			<h1 className="text-white">Second Slide</h1>
 		</div>,
-		<ImageContainer src="https://vivid-vision.net/wp-content/uploads/2023/04/22075_sothebys3.jpg" />,
+		<ImageContainer src="./static/media/xxs-Bathtub_nature_1_BIG_PNG_F.ceb062275cbd4759d6f5.jpg" />,
 	];
 
 	return (
@@ -63,7 +63,7 @@ function HomePage() {
 				/>
 			</Section>
 			<Section ref={sectionFourRef} backgroundColor="dark">
-				<ImageContainer src="https://thechive.com/wp-content/uploads/2019/12/person-hilariously-photoshops-animals-onto-random-things-xx-photos-25.jpg" />
+				<ImageContainer src="./static/media/xxs-Franklin_Night_R3_BIG_F.d5890dfa124186ff6a95.jpg" />
 				<ScrollToSectionButton
 					sectionRef={sectionFiveRef}
 					color="white"
