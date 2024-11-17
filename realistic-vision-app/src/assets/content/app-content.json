@@ -80,311 +80,252 @@
           "subTitle": "",
           "paragraphs": [{
               "boldedWords": [],
-              "text": "Realistic-Vision е студио за екстериорни и интериорни визуализации намиращо се в град Русе България."
+              "text": "Realistic-Vision is a studio for exterior and interior visualizations located in the city of Ruse, Bulgaria."
             },
             {
               "boldedWords": [],
-              "text": "Екипът ни се състои от 7 внимателно подбрани дизайнера с 10-15 годишен опит в сферата на 3D изображенията."
+              "text": "Our team consists of 7 carefully selected designers with 10-15 years of experience in the field of 3D images."
             },
             {
               "boldedWords": [],
-              "text": "Владеем перфектно 6 софтуера за визуализиране, което ни дава възможност да избираме, кой от тах да използваме в конкретна ситуация."
+              "text": "We have a perfect command of 6 visualization software, which allows us to choose which one to use in a specific situation."
             },
             {
               "boldedWords": [],
-              "text": "Основното ни предимство е, че непрекъснато обновяваме нашите познания за най-новите технологии в сферата на Ai – изкуствения интелект и успешно ги интегрираме в работата си."
+              "text": "Our main advantage is that we constantly update our knowledge of the latest technologies in the field of Ai - artificial intelligence and successfully integrate them into our work."
             },
             {
               "boldedWords": [],
-              "text": "Този начин на работа ни дава възможност да сме по-ефективни, оптимизирали сме процеса между 5-10 пъти с по-компактен колектив успяваме да предложим невиждан досега реализъм за наи-кратко време, на по-добра цена!"
+              "text": "This way of working enables us to be more efficient, we have optimized the process between 5-10 times with a more compact team, we manage to offer unprecedented realism in the shortest time, at a better price!"
             },
             {
               "boldedWords": [],
-              "text": "Прекрасно знаем, че за да осъществите продажба вашите клиенти трябва да почувстат магията , която да ги грабне и да ги подтикне към следващата крачка, а имено да закупят своето жилище!"
+              "text": "We know very well that in order to make a sale, your customers must feel the magic that will grab them and push them to the next step, namely to buy their home!"
             },
             {
               "boldedWords": [],
-              "text": "Нашата основна цел е да ви предоставим най-високо ниво на услугата за да имате възжможност да пренесете бизнесът си на следващото ниво, да грабнете интереса на клиентите си още в първия момент, в който ви забележат да спечелите по-голямо доверие в тях, което веднага ще доведе до повече и по-бързи продажби на по-висока продажна цена."
+              "text": "Our main goal is to provide you with the highest level of service to enable you to take your business to the next level, capture the interest of your customers the first moment they notice you and gain more trust in them, which will immediately lead to more and faster sales at a higher selling price."
             },
             {
               "boldedWords": [],
-              "text": "Ние притежаваме перфектните съставки за вашия успех, не просто продавайте а направете сензация от вашия имот!"
+              "text": "We have the perfect ingredients for your success, don't just sell, make a sensation out of your property!"
             }
           ]
         }]
       },
       "Services": {
         "buttons": [{
-            "name": "Всички",
+            "name": "All",
             "eventKey": "none"
           },
           {
-            "name": "Строители",
+            "name": "Builders",
             "eventKey": "Builders"
           },
           {
-            "name": "Архитекти",
+            "name": "Architects",
             "eventKey": "Architects"
           },
           {
-            "name": "Брокери",
+            "name": "Brokers",
             "eventKey": "Brokers"
           },
           {
-            "name": "Дизайнери",
+            "name": "Designers",
             "eventKey": "Designers"
           }
         ],
         "Sections": [{
-            "Builders": [{
-                "title": "Етажен план",
-                "subTitle": "",
-                "isSwaped": false,
-                "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
-                "description": {
-                  "paragraphs": [{
-                      "boldedWords": [
-
-                      ],
-                      "text": "Статично изображение с включени 2 корекции."
-                    },
-                    {
-                      "boldedWords": [
-
-                      ],
-                      "text": "Цената се определя от броя стаи."
-                    },
-                    {
-                      "boldedWords": [
-
-                      ],
-                      "text": "Необходимо е да ни предоставите план на етажа и ако е нужно насоки за (подове,стени, врати прозорци, мебели, аксесоари)."
-                    }
-                  ]
+            "title": "Floor Plan",
+            "category": "Architects",
+            "subTitle": "",
+            "isSwaped": false,
+            "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
+            "description": {
+              "paragraphs": [{
+                  "boldedWords": [],
+                  "text": "Static image with 2 corrections included."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "The price is determined by the number of rooms."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "It is necessary to provide us with a floor plan and, if necessary, guidelines for (floors, walls, doors, windows, furniture, accessories)."
                 }
-              },
-              {
-                "title": "Анимация",
-                "subTitle": "",
-                "isSwaped": false,
-                "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
-                "description": {
-                  "paragraphs": [{
-                      "boldedWords": [
-
-                      ],
-                      "text": "Анимация с включени 2 корекции."
-                    },
-                    {
-                      "boldedWords": [
-
-                      ],
-                      "text": "Изцяло изработена 3D среда или комбинация от реални кадри сляти с 3D модел."
-                    },
-                    {
-                      "boldedWords": [
-
-                      ],
-                      "text": "Даваме цена за изграждане на сгради спрямо сложността. След това цената се определя на секунда."
-                    },
-                    {
-                      "boldedWords": [
-
-                      ],
-                      "text": "Необходимо е да ни предоставите местоположение на обекта, план на сградата с описание на фасади, покриви, врати, прозорци, растителност. За максимален реализъм и най-добър ефект, ако изберете опция сливане на реални кадри с 3D модел на сградата, заснемаме лично с наш дрон или ви осигуряваме екип с нужната техника. "
-                    }
-                  ]
-                }
-              }
-            ]
+              ]
+            }
           },
           {
-            "Architects": [{
-                "title": "Екстериорен рендер",
-                "subTitle": "",
-                "isSwaped": false,
-                "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
-                "description": {
-                  "paragraphs": [{
-                      "boldedWords": [
-
-                      ],
-                      "text": "Статично изображение с включени 2 корекции."
-                    },
-                    {
-                      "boldedWords": [
-
-                      ],
-                      "text": "Даваме цена за изграждане на сградата спрямо сложността. След това цената на всяко изображение е твърда."
-                    },
-                    {
-                      "boldedWords": [
-
-                      ],
-                      "text": "Необходимо е да ни предоставите местоположение на обекта, план на сградата с описание на фасади, покрив, врати, прозорци, растителност. Препоръчително е да ни предоставите снимков материал."
-                    }
-                  ]
+            "title": "Interior Render",
+            "category": "Brokers",
+            "subTitle": "",
+            "isSwapped": true,
+            "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
+            "description": {
+              "paragraphs": [{
+                  "boldedWords": [],
+                  "text": "Static image with 2 corrections included."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "The price per image is fixed. The only exception is if you need to create a sofa."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "It is necessary to provide us with a plan of the room or a drawing made by you with all the necessary dimensions as well as complete information about the design (floors, walls, doors, windows, furniture and accessories)."
                 }
-              },
-              {
-                "title": "Екстериор – Реновиране",
-                "subTitle": "",
-                "isSwaped": true,
-                "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
-                "description": {
-                  "paragraphs": [{
-                      "boldedWords": [
-
-                      ],
-                      "text": "Статично изображение с хипотетичен дизайн без включени корекции."
-                    },
-                    {
-                      "boldedWords": [
-
-                      ],
-                      "text": "Цената за изображение е твърда."
-                    },
-                    {
-                      "boldedWords": [
-
-                      ],
-                      "text": "Необходимо е да ни предоставите снимка на сградата също и до 5 изисквания материали, цветове промяна в стълбища, врати, прозорци, гараж. Ако имате възможност изпратете ни и план на сградата или чертеж направен от вас с всички нужни размери. "
-                    },
-                    {
-                      "boldedWords": [
-
-                      ],
-                      "text": "ИЗИСКВАНЕ ЗА СНИМКА"
-                    }
-                  ]
-                }
-              }
-            ]
+              ]
+            }
           },
           {
-            "Brokers": [{
-                "subTitle": "",
-                "isSwaped": true,
-                "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
-                "description": {
-                  "paragraphs": [{
-                      "boldedWords": [
-
-                      ],
-                      "text": "Статично изображение с включени 2 корекции."
-                    },
-                    {
-                      "boldedWords": [
-
-                      ],
-                      "text": "Изцяло моделирана 3D среда или комбинация от реална снимка слята с 3D модел."
-                    },
-                    {
-                      "boldedWords": [
-
-                      ],
-                      "text": "Даваме цена за изграждане на сгради спрямо сложността. След това цената на всяко изображение е твърда."
-                    },
-                    {
-                      "boldedWords": [
-
-                      ],
-                      "text": "Необходимо е да ни предоставите местоположение на обекта, план на сградата с описание на фасади, покриви, врати, прозорци, растителност. Препоръчително е да ни предоставите снимков материал. За максимален реализъм и най-добър ефект, ако изберете опция сливане на реални кадри с 3D модел на сградата, но нямате възможност да осигурите снимки от дрон можем да заснемем лично с наш дрон или ви осигуряваме екип."
-                    }
-                  ]
+            "title": "Exterior Render",
+            "category": "Builders",
+            "subTitle": "",
+            "isSwapped": false,
+            "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
+            "description": {
+              "paragraphs": [{
+                  "boldedWords": [],
+                  "text": "Static image with 2 corrections included."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "We give a price to build the building based on the complexity. After that, the price of each image is fixed."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "It is necessary to provide us with the location of the object, a plan of the building with a description of facades, roof, doors, windows, vegetation. It is recommended to provide us with photographic material."
                 }
-              },
-              {
-                "title": "Виртуална обиколка",
-                "subTitle": "",
-                "isSwaped": true,
-                "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
-                "description": {
-                  "paragraphs": [{
-                      "boldedWords": [
-
-                      ],
-                      "text": "Получавате възможност да се разходите и да огледате всичко в детайли, да почувствате уюта на бъдещия ви дом!"
-                    },
-                    {
-                      "boldedWords": [
-
-                      ],
-                      "text": "Сдобивате се с персонален линк, чрез който всички ваши клиенти могат да се разходят."
-                    },
-                    {
-                      "boldedWords": [
-
-                      ],
-                      "text": "Цената се калкулира на базата на всички изисквания по проекта."
-                    }
-                  ]
-                }
-              }
-            ]
+              ]
+            }
           },
           {
-            "Designers": [{
-                "title": "Интериорен рендер",
-                "subTitle": "",
-                "isSwaped": true,
-                "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
-                "description": {
-                  "paragraphs": [{
-                      "boldedWords": [
-
-                      ],
-                      "text": "Статично изображение с включени 2 корекции."
-                    },
-                    {
-                      "boldedWords": [
-
-                      ],
-                      "text": "Цената за изображение е твърда. Изключение има само ако е нужно да се създаде мека мебел."
-                    },
-                    {
-                      "boldedWords": [
-
-                      ],
-                      "text": "Необходимо е да ни предоставите план на помещението или чертеж направен от вас с всички нужни размери както и цялостна информация за дизайна (подове, стени, врати прозорци, мебели и аксесоари)."
-                    }
-                  ]
+            "title": "Aerial render (drone shot)",
+            "category": "Builders",
+            "subTitle": "",
+            "isSwapped": true,
+            "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
+            "description": {
+              "paragraphs": [{
+                  "boldedWords": [],
+                  "text": "Static image with 2 corrections included."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "A fully modeled 3D environment or a combination of a real photo fused with a 3D model."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "We price building buildings based on complexity. After that, the price of each image is fixed."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "It is necessary to provide us with the location of the object, a plan of the building with a description of facades, roofs, doors, windows, vegetation. It is recommended to provide us with photographic material. For maximum realism and the best effect, if you choose an option merging real footage with a 3D model of the building, but you don't have the option to provide drone photos, we can shoot in person with our drone or we provide you with a team."
                 }
-              },
-              {
-                "title": "Интериор – Реновиране",
-                "subTitle": "",
-                "isSwaped": false,
-                "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
-                "description": {
-                  "paragraphs": [{
-                      "boldedWords": [
-
-                      ],
-                      "text": "Статично изображение с хипотетичен дизайн без включени корекции."
-                    },
-                    {
-                      "boldedWords": [
-
-                      ],
-                      "text": "Цената за изображение е твърда."
-                    },
-                    {
-                      "boldedWords": [
-
-                      ],
-                      "text": "Необходимо е да ни предоставите снимка на помещението, план на стаята или чертеж направен от вас с всички нужни размери и до 5 изисквания под, стени, прозорци, вид мебели(диван, секция, маса, кухня... и т.н.), големи аксесоари (килим, лампион, полилей, растение, радиатор). Тази услуга предлага хипотетичен интериор и тук не става въпрос за специфични изисквания. "
-                    },
-                    {
-                      "boldedWords": [
-
-                      ],
-                      "text": "ИЗИСКВАНЕ ЗА СНИМКА"
-                    }
-                  ]
+              ]
+            }
+          },
+          {
+            "title": "Animation",
+            "category": "Designers",
+            "subTitle": "",
+            "isSwapped": false,
+            "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
+            "description": {
+              "paragraphs": [{
+                  "boldedWords": [],
+                  "text": "Animation with 2 fixes included."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "An entirely rendered 3D environment or a combination of real footage fused with a 3D model."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "We give a cost to construct buildings based on complexity. The cost is then determined per second."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "It is necessary to provide us with the location of the object, a plan of the building with a description of facades, roofs, doors, windows, vegetation. It is recommended to provide us with photographic material. For maximum realism and the best effect, if you choose an option merging real footage with a 3D model of the building, but you don't have the option to provide drone photos, we can shoot in person with our drone or we provide you with a team."
                 }
-              }
-            ]
+              ]
+            }
+          },
+          {
+            "title": "Virtual Tour",
+            "category": "Brokers",
+            "subTitle": "",
+            "isSwapped": true,
+            "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
+            "description": {
+              "paragraphs": [{
+                  "boldedWords": [],
+                  "text": "You get the opportunity to walk around and look at everything in detail, to feel the comfort of your future home!"
+                },
+                {
+                  "boldedWords": [],
+                  "text": "You get a personal link that all your customers can navigate through."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "The price is calculated based on all project requirements."
+                }
+              ]
+            }
+          },
+          {
+            "title": "Interior - Renovation",
+            "category": "Builders",
+            "subTitle": "",
+            "isSwapped": false,
+            "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
+            "description": {
+              "paragraphs": [{
+                  "boldedWords": [],
+                  "text": "Static image of hypothetical design with no adjustments included."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "Price per image is fixed."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "It is necessary to provide us with a photo of the room, a plan of the room or a drawing made by you with all the necessary dimensions and up to 5 requirements for the floor, walls, windows, type of furniture (sofa, section, table, kitchen... and etc.), large accessories (carpet, lamp, plant, radiator). This service offers a hypothetical interior and is not a question of specific requirements."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "PHOTO REQUEST"
+                }
+              ]
+            }
+          },
+          {
+            "title": "Exterior - Renovation",
+            "category": "Builders",
+            "subTitle": "",
+            "isSwapped": true,
+            "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
+            "description": {
+              "paragraphs": [{
+                  "boldedWords": [],
+                  "text": "Static image of hypothetical design with no adjustments included."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "Price per image is fixed."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "It is necessary to provide us with a photo of the building as well as up to 5 required materials, colors, changes in stairs, doors, windows, garage. If you have the opportunity, send us a plan of the building or a drawing made by you with all the necessary dimensions. "
+                },
+                {
+                  "boldedWords": [],
+                  "text": "PHOTO REQUEST"
+                }
+              ]
+            }
           }
         ]
       },
@@ -516,255 +457,196 @@
           }
         ],
         "Sections": [{
-            "Builders": [{
-                "title": "Етажен план",
-                "subTitle": "",
-                "isSwaped": false,
-                "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
-                "description": {
-                  "paragraphs": [{
-                      "boldedWords": [
-
-                      ],
-                      "text": "Статично изображение с включени 2 корекции."
-                    },
-                    {
-                      "boldedWords": [
-
-                      ],
-                      "text": "Цената се определя от броя стаи."
-                    },
-                    {
-                      "boldedWords": [
-
-                      ],
-                      "text": "Необходимо е да ни предоставите план на етажа и ако е нужно насоки за (подове,стени, врати прозорци, мебели, аксесоари)."
-                    }
-                  ]
+            "title": "Етажен план",
+            "category": "Architects",
+            "subTitle": "",
+            "isSwaped": false,
+            "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
+            "description": {
+              "paragraphs": [{
+                  "boldedWords": [],
+                  "text": "Статично изображение с включени 2 корекции."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "Цената се определя от броя стаи."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "Необходимо е да ни предоставите план на етажа и ако е нужно насоки за (подове,стени, врати прозорци, мебели, аксесоари)."
                 }
-              },
-              {
-                "title": "Анимация",
-                "subTitle": "",
-                "isSwaped": false,
-                "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
-                "description": {
-                  "paragraphs": [{
-                      "boldedWords": [
-
-                      ],
-                      "text": "Анимация с включени 2 корекции."
-                    },
-                    {
-                      "boldedWords": [
-
-                      ],
-                      "text": "Изцяло изработена 3D среда или комбинация от реални кадри сляти с 3D модел."
-                    },
-                    {
-                      "boldedWords": [
-
-                      ],
-                      "text": "Даваме цена за изграждане на сгради спрямо сложността. След това цената се определя на секунда."
-                    },
-                    {
-                      "boldedWords": [
-
-                      ],
-                      "text": "Необходимо е да ни предоставите местоположение на обекта, план на сградата с описание на фасади, покриви, врати, прозорци, растителност. За максимален реализъм и най-добър ефект, ако изберете опция сливане на реални кадри с 3D модел на сградата, заснемаме лично с наш дрон или ви осигуряваме екип с нужната техника. "
-                    }
-                  ]
-                }
-              }
-            ]
+              ]
+            }
           },
           {
-            "Architects": [{
-                "title": "Екстериорен рендер",
-                "subTitle": "",
-                "isSwaped": false,
-                "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
-                "description": {
-                  "paragraphs": [{
-                      "boldedWords": [
-
-                      ],
-                      "text": "Статично изображение с включени 2 корекции."
-                    },
-                    {
-                      "boldedWords": [
-
-                      ],
-                      "text": "Даваме цена за изграждане на сградата спрямо сложността. След това цената на всяко изображение е твърда."
-                    },
-                    {
-                      "boldedWords": [
-
-                      ],
-                      "text": "Необходимо е да ни предоставите местоположение на обекта, план на сградата с описание на фасади, покрив, врати, прозорци, растителност. Препоръчително е да ни предоставите снимков материал."
-                    }
-                  ]
+            "title": "Интериорен рендер",
+            "category": "Brokers",
+            "subTitle": "",
+            "isSwaped": true,
+            "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
+            "description": {
+              "paragraphs": [{
+                  "boldedWords": [],
+                  "text": "Статично изображение с включени 2 корекции."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "Цената за изображение е твърда. Изключение има само ако е нужно да се създаде мека мебел."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "Необходимо е да ни предоставите план на помещението или чертеж направен от вас с всички нужни размери както и цялостна информация за дизайна (подове, стени, врати прозорци, мебели и аксесоари)."
                 }
-              },
-              {
-                "title": "Екстериор – Реновиране",
-                "subTitle": "",
-                "isSwaped": true,
-                "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
-                "description": {
-                  "paragraphs": [{
-                      "boldedWords": [
-
-                      ],
-                      "text": "Статично изображение с хипотетичен дизайн без включени корекции."
-                    },
-                    {
-                      "boldedWords": [
-
-                      ],
-                      "text": "Цената за изображение е твърда."
-                    },
-                    {
-                      "boldedWords": [
-
-                      ],
-                      "text": "Необходимо е да ни предоставите снимка на сградата също и до 5 изисквания материали, цветове промяна в стълбища, врати, прозорци, гараж. Ако имате възможност изпратете ни и план на сградата или чертеж направен от вас с всички нужни размери. "
-                    },
-                    {
-                      "boldedWords": [
-
-                      ],
-                      "text": "ИЗИСКВАНЕ ЗА СНИМКА"
-                    }
-                  ]
-                }
-              }
-            ]
+              ]
+            }
           },
           {
-            "Brokers": [{
-                "subTitle": "",
-                "isSwaped": true,
-                "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
-                "description": {
-                  "paragraphs": [{
-                      "boldedWords": [
-
-                      ],
-                      "text": "Статично изображение с включени 2 корекции."
-                    },
-                    {
-                      "boldedWords": [
-
-                      ],
-                      "text": "Изцяло моделирана 3D среда или комбинация от реална снимка слята с 3D модел."
-                    },
-                    {
-                      "boldedWords": [
-
-                      ],
-                      "text": "Даваме цена за изграждане на сгради спрямо сложността. След това цената на всяко изображение е твърда."
-                    },
-                    {
-                      "boldedWords": [
-
-                      ],
-                      "text": "Необходимо е да ни предоставите местоположение на обекта, план на сградата с описание на фасади, покриви, врати, прозорци, растителност. Препоръчително е да ни предоставите снимков материал. За максимален реализъм и най-добър ефект, ако изберете опция сливане на реални кадри с 3D модел на сградата, но нямате възможност да осигурите снимки от дрон можем да заснемем лично с наш дрон или ви осигуряваме екип."
-                    }
-                  ]
+            "title": "Екстериорен рендер",
+            "category": "Builders",
+            "subTitle": "",
+            "isSwaped": false,
+            "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
+            "description": {
+              "paragraphs": [{
+                  "boldedWords": [],
+                  "text": "Статично изображение с включени 2 корекции."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "Даваме цена за изграждане на сградата спрямо сложността. След това цената на всяко изображение е твърда."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "Необходимо е да ни предоставите местоположение на обекта, план на сградата с описание на фасади, покрив, врати, прозорци, растителност. Препоръчително е да ни предоставите снимков материал."
                 }
-              },
-              {
-                "title": "Виртуална обиколка",
-                "subTitle": "",
-                "isSwaped": true,
-                "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
-                "description": {
-                  "paragraphs": [{
-                      "boldedWords": [
-
-                      ],
-                      "text": "Получавате възможност да се разходите и да огледате всичко в детайли, да почувствате уюта на бъдещия ви дом!"
-                    },
-                    {
-                      "boldedWords": [
-
-                      ],
-                      "text": "Сдобивате се с персонален линк, чрез който всички ваши клиенти могат да се разходят."
-                    },
-                    {
-                      "boldedWords": [
-
-                      ],
-                      "text": "Цената се калкулира на базата на всички изисквания по проекта."
-                    }
-                  ]
-                }
-              }
-            ]
+              ]
+            }
           },
           {
-            "Designers": [{
-                "title": "Интериорен рендер",
-                "subTitle": "",
-                "isSwaped": true,
-                "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
-                "description": {
-                  "paragraphs": [{
-                      "boldedWords": [
-
-                      ],
-                      "text": "Статично изображение с включени 2 корекции."
-                    },
-                    {
-                      "boldedWords": [
-
-                      ],
-                      "text": "Цената за изображение е твърда. Изключение има само ако е нужно да се създаде мека мебел."
-                    },
-                    {
-                      "boldedWords": [
-
-                      ],
-                      "text": "Необходимо е да ни предоставите план на помещението или чертеж направен от вас с всички нужни размери както и цялостна информация за дизайна (подове, стени, врати прозорци, мебели и аксесоари)."
-                    }
-                  ]
+            "title": "Въздушен рендер (дрон кадър)",
+            "category": "Builders",
+            "subTitle": "",
+            "isSwaped": true,
+            "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
+            "description": {
+              "paragraphs": [{
+                  "boldedWords": [],
+                  "text": "Статично изображение с включени 2 корекции."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "Изцяло моделирана 3D среда или комбинация от реална снимка слята с 3D модел."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "Даваме цена за изграждане на сгради спрямо сложността. След това цената на всяко изображение е твърда."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "Необходимо е да ни предоставите местоположение на обекта, план на сградата с описание на фасади, покриви, врати, прозорци, растителност. Препоръчително е да ни предоставите снимков материал. За максимален реализъм и най-добър ефект, ако изберете опция сливане на реални кадри с 3D модел на сградата, но нямате възможност да осигурите снимки от дрон можем да заснемем лично с наш дрон или ви осигуряваме екип."
                 }
-              },
-              {
-                "title": "Интериор – Реновиране",
-                "subTitle": "",
-                "isSwaped": false,
-                "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
-                "description": {
-                  "paragraphs": [{
-                      "boldedWords": [
-
-                      ],
-                      "text": "Статично изображение с хипотетичен дизайн без включени корекции."
-                    },
-                    {
-                      "boldedWords": [
-
-                      ],
-                      "text": "Цената за изображение е твърда."
-                    },
-                    {
-                      "boldedWords": [
-
-                      ],
-                      "text": "Необходимо е да ни предоставите снимка на помещението, план на стаята или чертеж направен от вас с всички нужни размери и до 5 изисквания под, стени, прозорци, вид мебели(диван, секция, маса, кухня... и т.н.), големи аксесоари (килим, лампион, полилей, растение, радиатор). Тази услуга предлага хипотетичен интериор и тук не става въпрос за специфични изисквания. "
-                    },
-                    {
-                      "boldedWords": [
-
-                      ],
-                      "text": "ИЗИСКВАНЕ ЗА СНИМКА"
-                    }
-                  ]
+              ]
+            }
+          },
+          {
+            "title": "Анимация",
+            "category": "Designers",
+            "subTitle": "",
+            "isSwaped": false,
+            "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
+            "description": {
+              "paragraphs": [{
+                  "boldedWords": [],
+                  "text": "Анимация с включени 2 корекции."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "Изцяло изработена 3D среда или комбинация от реални кадри сляти с 3D модел."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "Даваме цена за изграждане на сгради спрямо сложността. След това цената се определя на секунда."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "Необходимо е да ни предоставите местоположение на обекта, план на сградата с описание на фасади, покриви, врати, прозорци, растителност. За максимален реализъм и най-добър ефект, ако изберете опция сливане на реални кадри с 3D модел на сградата, заснемаме лично с наш дрон или ви осигуряваме екип с нужната техника. "
                 }
-              }
-            ]
+              ]
+            }
+          },
+          {
+            "title": "Виртуална обиколка",
+            "category": "Brokers",
+            "subTitle": "",
+            "isSwaped": true,
+            "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
+            "description": {
+              "paragraphs": [{
+                  "boldedWords": [],
+                  "text": "Получавате възможност да се разходите и да огледате всичко в детайли, да почувствате уюта на бъдещия ви дом!"
+                },
+                {
+                  "boldedWords": [],
+                  "text": "Сдобивате се с персонален линк, чрез който всички ваши клиенти могат да се разходят."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "Цената се калкулира на базата на всички изисквания по проекта."
+                }
+              ]
+            }
+          },
+          {
+            "title": "Интериор – Реновиране",
+            "category": "Builders",
+            "subTitle": "",
+            "isSwaped": false,
+            "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
+            "description": {
+              "paragraphs": [{
+                  "boldedWords": [],
+                  "text": "Статично изображение с хипотетичен дизайн без включени корекции."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "Цената за изображение е твърда."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "Необходимо е да ни предоставите снимка на помещението, план на стаята или чертеж направен от вас с всички нужни размери и до 5 изисквания под, стени, прозорци, вид мебели(диван, секция, маса, кухня... и т.н.), големи аксесоари (килим, лампион, полилей, растение, радиатор). Тази услуга предлага хипотетичен интериор и тук не става въпрос за специфични изисквания. "
+                },
+                {
+                  "boldedWords": [],
+                  "text": "ИЗИСКВАНЕ ЗА СНИМКА"
+                }
+              ]
+            }
+          },
+          {
+            "title": "Екстериор – Реновиране",
+            "category": "Builders",
+            "subTitle": "",
+            "isSwaped": true,
+            "imageSrc": "https://img.freepik.com/premium-vector/woodland-forest-landscape-with-trees_313877-12370.jpg",
+            "description": {
+              "paragraphs": [{
+                  "boldedWords": [],
+                  "text": "Статично изображение с хипотетичен дизайн без включени корекции."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "Цената за изображение е твърда."
+                },
+                {
+                  "boldedWords": [],
+                  "text": "Необходимо е да ни предоставите снимка на сградата също и до 5 изисквания материали, цветове промяна в стълбища, врати, прозорци, гараж. Ако имате възможност изпратете ни и план на сградата или чертеж направен от вас с всички нужни размери. "
+                },
+                {
+                  "boldedWords": [],
+                  "text": "ИЗИСКВАНЕ ЗА СНИМКА"
+                }
+              ]
+            }
           }
         ]
       },
