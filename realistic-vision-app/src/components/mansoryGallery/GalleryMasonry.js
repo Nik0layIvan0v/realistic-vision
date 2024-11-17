@@ -146,6 +146,7 @@ function GalleyMasonry({ imageData }) {
 								<Nav.Link
 									eventKey={button.eventKey}
 									className="text-white p-0"
+									style={{ fontSize: '20px' }}
 								>
 									{button.name}
 								</Nav.Link>
