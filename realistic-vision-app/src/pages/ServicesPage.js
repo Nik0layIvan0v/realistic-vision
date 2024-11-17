@@ -9,6 +9,7 @@ function ServicesPage() {
 	const [content] = useOutletContext();
 	const [setNavShowContext] = useContext(NavContext);
 	const [category, setCategory] = useState(null);
+	const [filteredServices, setFlteredServices] = useState([]);
 	const { Services } = content;
 
 	const controlNavbar = () => {
@@ -28,54 +29,61 @@ function ServicesPage() {
 		};
 	}, []);
 
+	useEffect(() => {
+		if (!category) {
+			setFlteredServices(Services.Sections);
+			return;
+		}
+
+		const filteredSections = Services.Sections.filter(
+			(section) => section.category == category
+		);
+
+		setFlteredServices(filteredSections);
+	}, [category, content]);
+
 	return (
-		<>
-			<div style={{ marginTop: '56px' }}>
-				<Nav
-					as="ul"
-					variant="underline"
-					className="justify-content-center mb-3"
-					defaultActiveKey="none"
-					onSelect={(selectedKey) =>
-						setCategory(selectedKey == 'none' ? null : selectedKey)
-					}
-				>
-					{Services?.buttons.map((button, index) => {
-						return (
-							<Nav.Item key={index} as="li">
-								<Nav.Link
-									eventKey={button.eventKey}
-									className="text-white p-0"
-								>
-									{button.name}
-								</Nav.Link>
-							</Nav.Item>
-						);
-					})}
-				</Nav>
-				<Container className="text-light" fluid={false}>
-					{Services.Sections.map((section, index) => {
-						const {
-							title,
-							subTitle,
-							description,
-							imageSrc,
-							isSwaped,
-						} = section;
-						return (
-							<ServiceInfo
-								key={index}
-								title={title}
-								subTitle={subTitle}
-								description={description}
-								imageSrc={imageSrc}
-								isSwaped={isSwaped}
-							/>
-						);
-					})}
-				</Container>
-			</div>
-		</>
+		<div style={{ marginTop: '56px' }}>
+			<Nav
+				as="ul"
+				variant="underline"
+				className="justify-content-center mb-3"
+				defaultActiveKey="none"
+				onSelect={(selectedKey) =>
+					setCategory(selectedKey == 'none' ? null : selectedKey)
+				}
+			>
+				{Services?.buttons.map((button, index) => {
+					return (
+						<Nav.Item key={index} as="li">
+							<Nav.Link
+								eventKey={button.eventKey}
+								className="text-white p-0"
+								style={{ fontSize: '20px' }}
+							>
+								{button.name}
+							</Nav.Link>
+						</Nav.Item>
+					);
+				})}
+			</Nav>
+			<Container className="text-light" fluid={false}>
+				{filteredServices.map((section, index) => {
+					const { title, subTitle, description, imageSrc, isSwaped } =
+						section;
+					return (
+						<ServiceInfo
+							key={index}
+							title={title}
+							subTitle={subTitle}
+							description={description}
+							imageSrc={imageSrc}
+							isSwaped={isSwaped}
+						/>
+					);
+				})}
+			</Container>
+		</div>
 	);
 }
 
