@@ -1,10 +1,7 @@
 .animatedArrow {
   position: absolute;
   bottom: 3px;
-  width: 100%;
-  display: flex;
-  justify-items: flex-start;
-  justify-content: center;
+  left: 50%;
   text-shadow: #0a0a0a 0px 0px 5px;
   z-index: 100;
 }
