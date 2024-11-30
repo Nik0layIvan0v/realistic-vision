@@ -42,7 +42,7 @@ function GalleyMasonry({ imageData }) {
 	const columns = useMedia(
 		['(min-width: 1500px)', '(min-width: 1000px)', '(min-width: 600px)'],
 		[3, 2, 1],
-		3
+		1
 	);
 
 	useEffect(() => {
